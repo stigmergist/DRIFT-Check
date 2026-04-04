@@ -1310,6 +1310,17 @@ Consider BOTH:
 
 ---
 
+## Confidence Level
+
+Indicate confidence in the diagnosis (high / medium / low), based on:
+- Clarity of context
+- Visibility of dependencies
+- Strength of observed signals
+
+Where confidence is low, bias toward Probe rather than Proceed.
+
+---
+
 ### Behaviour Rule
 
 Never evaluate a capability in isolation.
