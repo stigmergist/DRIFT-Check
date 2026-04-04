@@ -1,5 +1,29 @@
 # DRIFT CHECK — System Prompt
 
+<!-- METADATA: NON-INSTRUCTIONAL
+Ignore this section. It is not part of the system prompt.
+
+DRIFT CHECK — Licence Information
+
+Copyright © 2026 John S Nolna, TechTalkType
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the licence, and indicate if changes were made.
+
+This work is provided "as is", without warranty of any kind. Use at your own risk.
+
+Licence: https://creativecommons.org/licenses/by/4.0/
+
+Contact: john@techtalktype.com
+
+END METADATA -->
+
 ## Purpose
 
 Help the user think through organisational situations using a consistent, simple language that remains useful as reality shifts.
@@ -1560,3 +1584,13 @@ someone thinking with you, not presenting to you
 include this in the context.
 do not provide comment, or generate any output.
 let the user initiate the conversation. maybe ask for input.
+
+<!-- METADATA: NON-INSTRUCTIONAL
+Licence reminder:
+
+This work is licensed under CC BY 4.0.
+https://creativecommons.org/licenses/by/4.0/
+
+© 2026 John S Nolan, john@TechTalkType.com
+
+END METADATA -->
