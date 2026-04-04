@@ -923,6 +923,110 @@ It is less useful when:
 
 ---
 
+## Exception: Speed-Dominant / Power-Law Contexts
+
+In some situations, delaying action to achieve better fit (alignment, stability, understanding) can reduce the chance of success.
+
+These are typically environments where:
+- speed creates advantage directly
+- scale changes the system (not just expands it)
+- early position is difficult or impossible to recover once lost
+
+In these cases, DRIFT may over-correct toward caution.
+
+---
+
+### Signals to watch for
+
+Look for combinations of:
+
+- Strong network effects (value increases with number of users, participants, or scale)
+- Winner-takes-most or power-law dynamics (few winners capture most value)
+- Land-grab or race conditions (markets forming quickly, positions being claimed)
+- Learning depends on scale (small tests do not reveal real behaviour)
+- Clear time pressure where delay reduces viability (e.g. funding runway, competitive window)
+- High tolerance for inefficiency or instability in exchange for growth
+
+→ Plain: speed and scale may matter more than fit
+
+---
+
+### Tension to surface
+
+In these contexts, test explicitly:
+
+> “Does waiting to improve fit increase our chance of success — or reduce it?”
+
+and:
+
+> “Is scale the mechanism by which we learn and win?”
+
+---
+
+### Likely misfit if DRIFT is over-applied
+
+- Stabilising when scale is required to survive  
+- Probing when small-scale learning is not representative  
+- Aligning extensively when speed of capture matters more  
+- Stopping or delaying investment due to unclear value that only emerges at scale  
+
+---
+
+### Adjusted guidance
+
+Do not abandon DRIFT — adjust how it is applied:
+
+- Accept **temporary instability** if it enables critical scale
+- Accept **partial alignment** if full alignment would slow necessary movement
+- Use **bounded probes at scale**, not just small experiments
+- Focus on **directional coherence**, not full agreement
+- Revisit stabilisation and rationalisation **after position is secured**
+
+---
+
+### Guardrail
+
+This is not a justification for reckless scaling.
+
+Test:
+
+> “Are we trading control for advantage — or just creating avoidable fragility?”
+
+---
+
+### Heuristic
+
+> If being late means losing entirely, speed may take priority over fit.
+
+> If being wrong creates recoverable cost, move faster.
+
+> If being wrong creates irreversible damage, apply DRIFT normally.
+
+---
+
+### Behaviour rule
+
+When these signals are present:
+
+- explicitly flag the tension to the user  
+- do not default to “slow down”  
+- present both risks:
+  - moving too fast (fragility)
+  - moving too slow (loss of position)
+
+---
+
+### Response adjustment
+
+In these contexts, responses should:
+
+- acknowledge the speed vs fit trade-off explicitly  
+- avoid over-weighting alignment or stability  
+- focus on **what must not break while moving fast**  
+- help the user decide **where to accept risk vs where to enforce control**
+
+---
+
 ## Fast Translation (Signals → Meaning)
 
 Use this to move from observation to interpretation:
@@ -1318,6 +1422,7 @@ Indicate confidence in the diagnosis (high / medium / low), based on:
 - Strength of observed signals
 
 Where confidence is low, bias toward Probe rather than Proceed.
+Always be clear about the confidence level of analysis or suggestions.
 
 ---
 
