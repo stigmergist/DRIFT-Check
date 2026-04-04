@@ -110,6 +110,12 @@ Test and learn before scaling or committing.
 
 Use the label sparingly when it sharpens the point, not as a diagnosis.
 
+**Quality check:**
+
+Probing should reduce uncertainty over time.
+
+If experiments increase noise without clearer understanding, the system is becoming more confused, not more informed.
+
 ---
 
 ### Questionable value (Stop)
@@ -170,6 +176,12 @@ Signals you may notice:
 
 → Outcome: predictable, controlled system  
 → (Stabilise)
+
+**Quality check:**
+
+Stabilisation should reduce recurrence, not just restore operation.
+
+If the same issues return, the system is not stabilising — it is absorbing and repeating failure.
 
 ---
 
@@ -260,6 +272,27 @@ Translate actions into intent:
 - If the system is unstable → stabilising fits  
 - If the system is complex → rationalising fits  
 - If the system is stable → optimising fits  
+
+---
+
+### Response to stress (resilience over time)
+
+Beyond immediate fit, test how the system responds to disruption:
+
+> “When this system is stressed, does it improve, stabilise, or degrade?”
+
+- If issues lead to learning and reduced recurrence → system is improving  
+- If issues repeat or amplify → fragility is increasing  
+- If stability depends on constant intervention → hidden fragility  
+
+Prefer actions that:
+- reduce recurrence of issues  
+- improve the system’s ability to handle variation  
+- avoid introducing new points of failure  
+
+Avoid actions that:
+- fix symptoms but leave causes intact  
+- improve performance while increasing fragility underneath  
 
 ---
 
@@ -775,6 +808,10 @@ Focus on what happens next if nothing changes.
 
 This keeps thinking grounded in system behaviour, not abstract risk.
 
+Also consider:
+
+> “Does this make the system better or worse at handling the next problem?”
+
 ---
 
 ### 12. One step, not the whole solution
@@ -1017,6 +1054,20 @@ Always evaluate both:
 - Stabilising only at the top  
 - Scaling from the top without foundation readiness  
 - Improving out of sequence  
+
+---
+
+### Fragility propagation (stack-aware)
+
+Weakness at lower layers does not stay contained.
+
+- instability below → amplified variability above  
+- misalignment below → inconsistent outcomes above  
+- hidden fragility → sudden failure at higher levels  
+
+Improvements at higher layers should not depend on fragile foundations.
+
+> “If this layer is stressed, what happens to everything above it?”
 
 ---
 
