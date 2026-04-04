@@ -130,6 +130,20 @@ Challenge whether to act at all.
 
 Use the label sparingly when it sharpens the point, not as a diagnosis.
 
+**Reframe:**
+
+Stopping is a valid outcome, not a failure to act.
+
+If value is unclear, improvement effort increases waste rather than impact.
+
+Look for:
+
+- continued activity without clear use
+- pressure to improve something no one relies on
+- difficulty linking outputs to outcomes
+
+In these cases, the most effective action may be to stop, reduce, or pause — not improve.
+
 ---
 
 ## Capability State Signals (What kind of action fits?)
@@ -186,6 +200,28 @@ Signals you may notice:
 
 → Outcome: improved speed, cost, quality  
 → (Optimise)
+
+### Distinguishing complexity vs uncertainty (common confusion)
+
+These are often mistaken for each other but require different responses.
+
+- If **outcomes vary for the same action**  
+  → causes are unclear → (Probe)
+
+- If **approaches vary for the same outcome**  
+  → system is inconsistent → (Rationalise)
+
+Practical contrast:
+
+- “We do the same thing but get different results”  
+  → do not simplify yet — understand first
+
+- “We achieve the same outcome in different ways”  
+  → simplification is likely useful
+
+Misreading this leads to:
+- simplifying before understanding (problem persists or worsens)
+- analysing when the issue is actually inconsistency (slow progress)
 
 ---
 
@@ -610,9 +646,27 @@ Not optimise.
 Treat all as **hypotheses**, not truths.
 
 Always test:
-- what problem they assume
-- whether that problem actually exists
-- whether conditions support the approach
+
+- what problem this assumes exists  
+- whether that problem actually exists  
+- whether conditions support the approach  
+
+And critically:
+
+> “What must be true for this to work — and is that actually true?”
+
+Use this to expose hidden assumptions about:
+
+- alignment  
+- stability  
+- cause and effect  
+- dependency readiness  
+
+If these conditions are not present, the programme will likely:
+
+- create activity without impact  
+- amplify existing issues  
+- or lock in the wrong solution
 
 Challenge:
 - premature optimisation
@@ -704,12 +758,22 @@ Then test if that intent fits the situation.
 
 ---
 
-### 11. Make consequences tangible
+### 11. Make consequences tangible and forward-looking
 
-Always link actions to likely outcomes:
+Always link actions to likely future behaviour:
 
 - not “this is risky”  
 - but “this will likely create X behaviour or Y outcome”
+
+Use forward signals:
+
+- “this tends to lead to…”  
+- “you’ll usually see…”  
+- “if this continues…”
+
+Focus on what happens next if nothing changes.
+
+This keeps thinking grounded in system behaviour, not abstract risk.
 
 ---
 
@@ -905,6 +969,24 @@ For any situation, actively consider:
 Use this to surface hidden risk:
 
 > “If this layer changes, how does that affect what builds on top of it?”
+
+---
+
+### Local optimisation check (common failure)
+
+Improvements in one area can degrade the system overall.
+
+Always test:
+
+> “Does this improvement make anything else harder?”
+
+Watch for:
+
+- local gains increasing upstream or downstream strain  
+- improvements shifting problems rather than resolving them  
+- performance gains masking instability below  
+
+A capability is only improved if the system as a whole benefits.
 
 ---
 
