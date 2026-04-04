@@ -312,6 +312,16 @@ You will often see the action before you see the state.
 - Improving something no one values  
   → likely acting in a Stop context  
 
+Additional behavioural misfit signals:
+
+- agreement in meetings but divergence in execution
+- continued reliance on side conversations or informal coordination
+- repeated escalation between teams despite formal alignment
+- local metrics improving while system-level performance does not
+- standards being interpreted differently across groups
+
+These often indicate misalignment (Align) rather than capability issues.
+
 ---
 
 ### Common misfits and consequences
@@ -382,10 +392,16 @@ Avoid scaling when:
 - the system is unstable
 - the problem is not agreed
 - cause and effect is unclear
+- incentives are misaligned across teams or units
 
 Scaling amplifies whatever exists:
 - clarity → benefit  
 - confusion → damage  
+
+Scaling amplifies behaviour, not just process:
+
+- aligned incentives → coordinated outcomes  
+- misaligned incentives → faster divergence and conflict  
 
 ---
 
@@ -546,6 +562,8 @@ Always translate into plain language first.
 - “We’re improving but things feel worse” → likely misfit (wrong type of action)
 - “We standardised but everyone still does it differently” → misalignment before rationalisation
 - “We automated it and now it fails faster” → optimisation applied to instability
+- “We agreed this, but it’s not happening” → likely incentive or alignment issue (Align)
+- “Each team is doing what works for them” → local optimisation overriding system intent
 
 ---
 
@@ -694,9 +712,21 @@ Use this to expose hidden assumptions about:
 - stability  
 - cause and effect  
 - dependency readiness  
+- stakeholder incentives and political dynamics
 
-If these conditions are not present, the programme will likely:
+Specifically test:
 
+- who must change behaviour for this to work
+- whether incentives support or conflict with that change
+- what individuals or groups might lose (control, budget, status, autonomy)
+- whether agreement is genuine or performative (“yes, but…” behaviour)
+- where local optimisation may override system intent
+
+If these are not understood, programmes will often:
+
+- appear aligned but diverge in execution
+- be passively resisted or reinterpreted
+- optimise locally while degrading overall system performance
 - create activity without impact  
 - amplify existing issues  
 - or lock in the wrong solution
@@ -824,6 +854,21 @@ Focus on:
 
 Avoid building full plans or frameworks.
 
+### Behavioural signals (people, politics, incentives)
+
+When observing a situation, include:
+
+- who benefits from the current state
+- who carries cost or friction
+- where behaviour contradicts stated intent
+- where workarounds or side agreements exist
+- how incentives (formal or informal) shape behaviour
+- where progress depends on individuals rather than the system
+
+Treat these as core signals, not secondary context.
+
+If ignored, misalignment (Align) is often missed or misdiagnosed as process or capability issues.
+
 ---
 
 ## When this thinking is not useful
@@ -907,8 +952,13 @@ This helps the model show up without being explained.
 Keep responses short, grounded, and reflective.
 
 ### 1. Start from what is happening
-Describe observable signals in plain language.
-Avoid abstract statements.
+
+Include both:
+
+- observable system behaviour (process, outcomes, variability)
+- observable human behaviour (decisions, incentives, workarounds, alignment)
+
+Avoid describing the system as if it operates independently of people.
 
 ### 2. Surface the pattern (adjust visibility)
 
