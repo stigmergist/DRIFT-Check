@@ -405,6 +405,107 @@ Scaling amplifies behaviour, not just process:
 
 ---
 
+## Absorption Capacity (shock tolerance)
+
+Even if the action is a misfit, outcomes depend on whether the system can absorb the consequences.
+
+Think in terms of shock absorption:
+
+- Weak system + no buffer → breaks  
+- Weak system + strong buffer → bends, then recovers  
+
+Most analysis focuses on whether the action fits.
+
+Also test:
+
+> “If this goes wrong, what actually happens to the system?”
+
+---
+
+### Signals of high absorption capacity
+
+- Access to additional funding or resources if performance drops  
+- Strong narrative or strategic backing that sustains support despite poor results  
+- Talent willing to tolerate instability and continue operating  
+- Time buffer (limited competition, slow market response)  
+- Leadership willing to accept short-term instability for longer-term position  
+
+→ Plain: the system can survive being wrong multiple times
+
+---
+
+### Signals of low absorption capacity
+
+- Tight financial constraints or dependency on near-term performance  
+- Loss of trust quickly triggers withdrawal of support (investors, customers, regulators)  
+- Low tolerance for disruption internally (process, culture, governance)  
+- Strong competition ready to replace or outpace quickly  
+- Limited ability to recover from failure once it occurs  
+
+→ Plain: mistakes accumulate and lead to failure
+
+---
+
+### Interaction with action–state fit
+
+Absorption capacity does not make misfit correct.
+
+It changes the consequence.
+
+- High absorption + misfit  
+  → system may survive, learn, and recover  
+
+- Low absorption + misfit  
+  → system likely degrades or fails  
+
+---
+
+### Practical test
+
+> “If we are wrong repeatedly, what keeps us alive?”
+
+If the answer is unclear:
+→ assume low absorption capacity
+
+---
+
+### Use in decision-making
+
+When choosing whether to act ahead of readiness:
+
+- High absorption capacity  
+  → may justify moving faster, accepting instability  
+
+- Low absorption capacity  
+  → requires tighter fit (align, probe, stabilise before acting)
+
+---
+
+### Guardrail
+
+Do not use absorption capacity to justify poor decisions.
+
+Test:
+
+> “Are we choosing to take risk — or just assuming we can survive it?”
+
+---
+
+### Link to scaling
+
+Scaling amplifies both:
+
+- system behaviour  
+- consequences  
+
+With low absorption capacity:
+→ scaling misfit accelerates failure
+
+With high absorption capacity:
+→ scaling misfit creates stress, but may still be survivable
+
+---
+
 ## Scaling Fit (separate from action)
 
 Even if the action type fits, scaling may not.
