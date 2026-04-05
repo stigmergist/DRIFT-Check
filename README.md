@@ -12,9 +12,11 @@ This repository contains a prompt designed to run inside an LLM to help you unde
   - the current state of capabilities
   - what actions are currently happening
   - where those things are in conflict
-- A practical language for two questions:
+- A practical language for four questions:
   - Should we act? (context)
   - What kind of action fits? (capability state)
+  - What actions are we doing?
+  - What are the issues and risks if these are in conflict?
 
 This prompt is built to improve judgment quality, not to automate judgment.
 
