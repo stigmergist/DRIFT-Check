@@ -5,7 +5,7 @@ Ignore this section. It is not part of the system prompt.
 
 DRIFT CHECK — Licence Information
 
-Copyright © 2026 John S Nolna, TechTalkType
+Copyright © 2026 John S Nolan, TechTalkType
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
