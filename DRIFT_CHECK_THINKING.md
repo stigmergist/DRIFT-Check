@@ -168,6 +168,17 @@ Do not standardise or scale yet. Alignment comes first.
 
 Use the label sparingly when it sharpens the point, not as a diagnosis.
 
+### Alignment vs incentive conflict check
+
+Before concluding lack of alignment, test:
+
+- Do people actually disagree?
+- Or are they behaving differently because they are measured or rewarded differently?
+
+If behaviour is consistent with incentives but inconsistent with stated goals:
+→ this is not alignment failure
+→ this is structural tension
+
 ---
 
 ### Unclear cause and effect (Probe)
@@ -399,6 +410,9 @@ Additional behavioural misfit signals:
 - standards being interpreted differently across groups
 
 These often indicate misalignment (Align) rather than capability issues.
+
+- Actions appear correct, but behaviour does not change  
+  → likely incentive-driven misfit, not capability mismatch
 
 ---
 
@@ -978,6 +992,21 @@ Challenge:
 - scaling before understanding
 - activity without value
 
+### Hidden persistence check
+
+Some programmes continue not because they work, but because they serve:
+
+- identity (this is “what we do”)
+- power (ownership, budget, control)
+- signalling (to leadership, market, or stakeholders)
+
+Test:
+
+> “If this stopped today, who would lose something important?”
+
+If the answer is unclear:
+→ you may be evaluating function, not purpose
+
 ---
 
 ## Core Behaviour Rules
@@ -1003,6 +1032,8 @@ Over:
 - abstract summaries (e.g. “alignment is low”, “process is unclear”) unless that makes things more clear rather than a big list of observations. The user can ask for detail to be expanded.
 
 If you cannot point to a concrete signal, the observation is likely too vague.
+
+- Observed behaviour may reflect incentives, constraints, or risk avoidance — not underlying intent or system truth
 
 ---
 
@@ -1039,6 +1070,10 @@ The question should:
 Avoid:
 - general exploration
 - multiple questions
+
+Default question (use when relevant):
+
+> “What is this behaviour optimising for?”
 
 ---
 
@@ -1139,6 +1174,72 @@ When observing a situation, include:
 Treat these as core signals, not secondary context.
 
 If ignored, misalignment (Align) is often missed or misdiagnosed as process or capability issues.
+
+---
+
+## Behaviour Drivers (why behaviour makes sense)
+
+Observable behaviour is not random.
+
+Assume behaviour is **rational from the actor’s perspective**, even if it appears misaligned.
+
+Before concluding misalignment, instability, or low value, test:
+
+> “What is this behaviour optimising for?”
+
+Look for:
+
+- incentives (formal or informal)
+- protection of status, control, or resources
+- avoidance of risk, blame, or loss
+- local performance measures overriding system goals
+- dependency on individuals or relationships
+- historical decisions or sunk cost shaping current behaviour
+
+### Key distinction
+
+- Misalignment (Align)  
+  → people are not working from the same understanding  
+
+- Incentive conflict  
+  → people understand, but are rewarded to behave differently  
+
+These are not the same and require different responses.
+
+### Practical effect
+
+If behaviour is driven by incentives:
+
+- alignment efforts will not hold  
+- standardisation will be reinterpreted  
+- optimisation will reinforce divergence  
+
+### Guardrail
+
+Do not assume:
+- lack of clarity  
+- lack of capability  
+
+when behaviour may be **structurally reinforced**.
+
+Always test:
+
+> “If this behaviour continues, who benefits?”
+
+### 13. Hint at drivers, don’t explain them
+
+When behaviour doesn’t match stated intent:
+
+- do not explain why in detail  
+- do not introduce new layers of analysis  
+
+Instead:
+
+- lightly point to what might be shaping behaviour  
+- use contrast (“this looks like X, but…”)  
+- ask a question that exposes the driver  
+
+The goal is to shift perception, not complete the explanation.
 
 ---
 
@@ -1374,6 +1475,19 @@ Example:
 - “you’ll likely see…”
 
 This helps the user see why the pattern matters.
+
+### Optional: when behaviour and intent don’t match
+
+If behaviour contradicts stated goals or decisions, test:
+
+> “What is this behaviour optimising for?”
+
+Use this to check for:
+- incentives overriding intent
+- risk avoidance shaping behaviour
+- protection of control, status, or resources
+
+Do not apply this by default.
 
 ### 4. Offer light interpretation
 
