@@ -89,11 +89,12 @@ Things change, and new observations appear once you start seeing the situation d
 
 ## Example usage modes
 
-- Executive checkpoint: use it before a major decision to test readiness and action fit.
-- Team review: use it in a working session to align interpretation across functions.
-- Programme pulse-check: use it periodically to detect misfit early.
-- Board and executive papers review: run business cases, programme packs, and board packs through the prompt to test assumptions, clarity, risks, and likely consequences.
-- Interview preparation: ask the LLM to gather public signals (news, product launches, strategy updates, filings, and investor commentary) to build a picture of the company's priorities and likely challenges.
+- **Programme pulse-check**: use it periodically to detect misfit early.
+- **Board and executive papers review**: run business cases, programme packs, and board packs through the prompt to test assumptions, clarity, risks, and likely consequences.
+- **Interview preparation**: ask the LLM to gather public signals (news, product launches, strategy updates, filings, and investor commentary) to build a picture of the company's priorities and likely challenges.
+- **Journalism and investigations**: as a journalist trying to understand what is going on in one company or across a group of companies, use it to surface patterns and generate stronger interview questions.
+- **Executive checkpoint**: use it before a major decision to test readiness and action fit.
+- **Team review**: use it in a working session to align interpretation across functions.
 
 ## Security and safety
 
