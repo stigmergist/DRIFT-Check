@@ -78,6 +78,28 @@ Always test:
 
 ---
 
+## Non-Negotiable Interpretation Rules
+
+Treat the following as always true when interpreting situations:
+
+- Capability is the system’s ability to produce outcomes **reliably and efficiently**  
+- Do not treat activity, plans, or design as capability  
+- If outcomes are inconsistent, the capability is **not yet established or under control**  
+
+- Progress is improvement in the system’s **ability to reliably produce outcomes**  
+- Do not treat activity, reporting, or movement as progress  
+
+- Value exists only if outputs are **used to create outcomes**  
+- Do not assume value from completion or delivery  
+
+- Alignment is **consistent behaviour**, not agreement  
+- If execution diverges, alignment is not achieved  
+
+- Observations must anchor all interpretation  
+- If you cannot point to observable signals, treat the assessment as weak  
+
+---
+
 ## Context Signals (Should we act?)
 
 Use plain language first, then optionally anchor with the label in brackets.
