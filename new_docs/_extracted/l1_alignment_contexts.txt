@@ -1,0 +1,46 @@
+                                 Context Layer Diagnostic Matrix (Detailed with Examples)
+State             Observable signals (detailed examples)                                              Behaviours to improve the situation                             Risk if acting too soon (detailed signals)
+
+                  • Stakeholders independently describe the same issue in similar language (e.g.      • Move quickly into Layer 2 and apply the relevant action       • Main risk is overconfidence rather than misreadiness.
+        Proceed   'handoffs between teams are causing delays').                                       logic.                                                          • Scaling too fast before testing variability, edge cases, or local constraints.
+                  • Meetings move quickly from discussion to action; decisions are rarely             • Maintain the shared understanding of the problem.             • Assuming all teams, outlets, or regions behave the same.
+                  reopened.                                                                           • Track outcomes and validate assumptions as you scale.
+                  • KPIs and frontline experience point the same way (e.g. both show slow cycle       • Replicate what works, but do so deliberately.                 You will notice:
+                  time).                                                                              • Avoid unnecessary over-analysis that slows momentum.          • Early gains fail to replicate everywhere.
+                  • Previous interventions produced consistent, repeatable improvements.                                                                              • Specific edge cases break the model (e.g. certain customer groups, sites,
+                  • Teams already work in similar ways without heavy enforcement.                                                                                     products).
+                  • Minimal escalation and few side conversations after decisions.                                                                                    • Teams start saying 'this works here, but not there'.
+
+                  • Different stakeholder groups describe different problems (e.g. Operations says    • Facilitate a shared problem definition in plain language.     • Risk is fragmented execution and hidden resistance.
+        Align     process, Finance says cost, Frontline says staffing).                               • Surface and resolve trade-offs explicitly (e.g. cost vs       • Different teams implement different versions of the 'same' solution.
+                  • Meetings revisit the same issue repeatedly, often with shifting conclusions.      service vs speed).                                              • People comply formally but adapt informally.
+                  • Decisions made centrally are interpreted differently across teams or regions.     • Define clear outcomes and success criteria.
+                  • Visible 'yes, but...' behaviour or quiet non-compliance after meetings.           • Identify conflicting incentives or KPIs that drive            You will notice:
+                  • Side conversations, escalations, and local workarounds continue after             contradictory behaviour.                                        • 'We tried that and it did not work' - but each team did something different.
+                  decisions.                                                                          • Build genuine agreement before starting large-scale           • Rework, repeated decision cycles, and ongoing debate.
+                  • Progress depends heavily on which leader is involved.                             change.                                                         • Programme activity stays high but progress feels low.
+                                                                                                                                                                      • Results vary according to who is leading or sponsoring the work.
+
+                  • Data is contradictory or mixed (e.g. productivity rises while quality falls, or   • Run small, low-risk experiments rather than launching a       • Risk is scaling the wrong solution before understanding cause and effect.
+                  utilisation improves while complaints increase).                                    full programme.                                                 • A weak or harmful intervention gets locked in and amplified.
+    ?   Probe
+                  • The same intervention works in one place but fails somewhere similar without      • Test different approaches in parallel where possible.         • Hidden issues surface only after commitment is high.
+                  a clear reason.                                                                     • Shorten feedback loops so the system teaches you
+                  • Teams rely heavily on anecdote or judgement because shared evidence is            quickly.                                                        You will notice:
+                  weak.                                                                               • Observe before scaling; treat action as learning.             • Wide variability in outcomes across teams, outlets, or regions.
+                  • Experts disagree, but each explanation sounds plausible.                          • Prioritise insight over immediate optimisation.               • Unexpected side effects (e.g. speed improves but quality drops).
+                  • Frequent phrases include 'it depends', 'we are not sure why', or 'it varies by                                                                    • Frequent resets, pivots, or strategic restarts.
+                  case'.                                                                                                                                              • Teams lose confidence because the direction keeps changing.
+                  • Apparent root causes shift depending on who you ask or which dataset you
+                  use.
+
+                  • Leadership attention is low or inconsistent; the topic is repeatedly              • Challenge whether this work or capability is needed at all.   • Risk is wasted effort and rising opportunity cost.
+        Stop      deprioritised.                                                                      • Reassess strategic relevance explicitly rather than           • Resources are consumed with little meaningful return.
+                  • Work continues mainly out of habit, legacy obligation, or inherited process.      assuming it.                                                    • The organisation mistakes activity for progress.
+                  • Improvement activity produces little or no visible change in outcomes.            • Reduce, pause, or stop investment where justified.
+                  • No clear owner exists, or ownership changes frequently.                           • Reallocate people, funding, and leadership attention to       You will notice:
+                  • Teams struggle to explain why this matters to customers, strategy, or value       higher-value areas.                                             • Work continues but outcomes do not materially change.
+                  creation.                                                                           • Make an explicit exit, pause, or deprioritisation decision.   • It remains difficult to show value, impact, or ROI.
+                  • The effort spent - meetings, cost, time, reporting - feels bigger than the                                                                        • The initiative quietly fades or is abandoned later.
+                  benefit.                                                                                                                                            • Teams disengage because they sense the work does not matter.
+

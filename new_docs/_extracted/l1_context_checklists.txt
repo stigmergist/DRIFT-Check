@@ -1,0 +1,59 @@
+                                                                                 Layer 1 Context Diagnostic Checklists
+Use this sheet to assess which context state a capability is in before applying Layer 2.
+Tick each observable item that is clearly present (not assumed). Add totals per column.
+Guide only: 0–4 weak | 5–8 moderate | 9+ strong. If columns are close, treat as mixed and use judgement.
+
+
+  PROCEED                                                        ALIGN                                                              PROBE                                                          STOP
+      Stakeholders independently describe the                        Different stakeholders describe different                          Data is contradictory or inconsistent                          Low or inconsistent leadership attention
+      same issue                                                     problems                                                           e.g. metrics improve but complaints rise                       e.g. repeatedly dropped from agenda
+      e.g. different teams use similar language without              e.g. ops vs finance vs frontline disagree
+      prompting                                                                                                                         Same action gives different results                            Work continues out of habit
+                                                                     Meetings revisit the same issue repeatedly                         e.g. works in one team, fails in another                       e.g. legacy processes persist
+      Low disagreement about the core problem                        e.g. no stable conclusion is reached
+      e.g. little debate on what’s wrong                                                                                                Cause-and-effect is unclear                                    Improvements have little visible impact
+                                                                     Decisions are reinterpreted later                                  e.g. no agreement on drivers                                   e.g. metrics unchanged after effort
+      Decisions stick once made                                      e.g. different teams apply differently
+      e.g. not reopened in subsequent meetings                                                                                          Experts disagree credibly                                      No clear ownership exists
+                                                                     ‘Yes, but…’ behaviour appears                                      e.g. multiple plausible explanations                           e.g. responsibility unclear or shifting
+      Data and frontline experience align                            e.g. agreement in meeting, resistance after
+      e.g. KPIs match what teams report                                                                                                 ‘It depends’ answers are common                                Value is hard to explain
+                                                                     Execution is inconsistent across teams                             e.g. outcomes vary by context                                  e.g. unclear link to outcomes
+      Outcomes are predictable                                       e.g. multiple versions of the same solution
+      e.g. similar inputs → similar outputs                                                                                             Reliance on anecdotes or judgement                             Effort outweighs benefit
+                                                                     Progress depends on who is leading                                 e.g. lack of shared evidence                                   e.g. high cost for low return
+      Previous actions produced consistent results                   e.g. varies by manager or sponsor
+      e.g. fixes worked similarly across areas                                                                                          Outcomes are variable or unpredictable                         Work is frequently deprioritised
+                                                                     Side conversations continue after decisions                        e.g. high variance across similar units                        e.g. always secondary
+      Low friction from discussion to execution                      e.g. informal workarounds appear
+      e.g. actions follow quickly after decisions                                                                                       Root causes appear to shift over time                          Language reflects obligation not value
+                                                                     Escalation persists after agreement                                e.g. diagnosis changes with perspective                        e.g. ‘we have to do this’
+      Teams behave consistently across contexts                      e.g. issues repeatedly raised upward
+      e.g. similar ways of working without enforcement                                                                                  Experiments not yet run or inconclusive                        Duplication with other capabilities
+                                                                     Conflicting incentives are present                                 e.g. no clear test-and-learn                                   e.g. similar work done elsewhere
+      Shared understanding is visible                                e.g. KPIs drive different behaviours
+      e.g. people explain the problem in the same way                                                                                   Hidden variables suspected                                     Outputs rarely used by stakeholders
+                                                                     Lack of shared success criteria                                    e.g. environment differences                                   e.g. low consumption of outputs
+      Minimal escalation or side conversations                       e.g. teams measure different outcomes
+      e.g. decisions are not undermined afterwards                                                                                      Frequent course corrections                                    No clear customer impact
+                                                                     Frequent rework of decisions                                       e.g. direction changes often                                   e.g. hard to tie to value
+      Clear ownership and accountability                             e.g. direction changes without new evidence
+      e.g. everyone knows who is responsible                                                                                            Low confidence in explanations                                 Opportunity cost is visible
+                                                                     People challenge the framing                                       e.g. ‘we’re not sure why’                                      e.g. better uses for resources identified
+      Confidence in direction is high                                e.g. ‘that’s not the real issue’
+      e.g. ‘we know what the issue is’
+
+
+
+
+  Total ticks                        0–4 weak | 5–8 moderate | 9+Total
+                                                                  strongticks                           0–4 weak | 5–8 moderate | 9+Total
+                                                                                                                                     strongticks                       0–4 weak | 5–8 moderate | 9+Total
+                                                                                                                                                                                                    strongticks                        0–4 weak | 5–8 moderate | 9+ stro
+
+
+
+
+  Dominant state summary
+  Write the result after comparing totals, e.g. 'Proceed' or 'Mixed: Align / Probe'.
+

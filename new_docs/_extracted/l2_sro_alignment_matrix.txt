@@ -1,0 +1,26 @@
+                                     Stabilise – Rationalise – Optimise Alignment Matrix
+Actual phase ↓ / Behaviour →               Stabilise behaviours                     Rationalise behaviours                    Optimise behaviours
+
+What this behaviour looks like             Fix incidents                            Remove duplication                        Automate processes
+                                           Add monitoring & control                 Standardise processes                     Improve performance metrics
+                                           Reduce variability                       Consolidate systems                       Run experiments
+                                           Restore predictability                   Simplify workflows                        Drive continuous improvement
+Stabilise (unstable, reactive)             RIGHT FIT                                HIGH RISK                                 VERY HIGH RISK
+                                           Restores control and predictability      Removes buffers and resilience            Automates broken processes
+• Volatility                               Reduces incidents and firefighting       Adds change into instability              Amplifies failures at scale
+• Failure frequency                        Builds safe baseline                     Overloads stressed teams                  Removes safety nets
+• Reactivity                               Outcome: System becomes reliable         Outcome: More breakages, slower           Outcome: Systemic failures, loss of
+                                                                                    recovery                                  control
+Rationalise (complex, inefficient)         LIMITED VALUE                            RIGHT FIT                                 HIGH RISK
+                                           Improves reliability but keeps           Removes duplication and waste             Optimises redundant processes
+• Duplication                              complexity                               Standardises processes                    Locks in complexity
+• Inconsistency                            Adds control not simplification          Reduces cost structurally                 Scales inefficiency
+• Coordination overhead                    Outcome: Stable but expensive            Outcome: Simpler, leaner system           Outcome: Higher long-term cost
+Optimise (stable, simplified)              LOW VALUE                                MISAPPLIED                                RIGHT FIT
+                                           Over-focus on control                    Reworks already good processes            Improves speed, cost, quality
+• Performance gap                          Diminishing returns                      Creates analysis paralysis                Enables automation and scaling
+• Underutilisation                         Outcome: Slower progress                 Outcome: Lost momentum                    Drives continuous improvement
+• Stagnation                                                                                                                  Outcome: High performance
+
+Use this matrix to diagnose whether your improvement approach matches the actual state of the system, and to avoid applying the wrong type of change.
+
