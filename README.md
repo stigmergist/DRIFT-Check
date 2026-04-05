@@ -34,7 +34,7 @@ For a future side-by-side boundary comparison against methods/frameworks, see [M
 
 ### 1. Start by sharing the prompt
 
-- First, share [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md) with the assistant.
+- First, share [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md) with the assistant (see [Security and safety](README.md#security-and-safety) and make sure you are using an appropriate approved AI chat for your information).
   - Option 1: add it to chat as a file attachment.
   - Option 2: if your chat tool does not let you attach files, copy all text from [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md) and paste it as your first message.
   - Better option for repeat use: create a persistent assistant and store this prompt as its main instruction.
@@ -94,6 +94,14 @@ Things change, and new observations appear once you start seeing the situation d
 - Programme pulse-check: use it periodically to detect misfit early.
 - Board and executive papers review: run business cases, programme packs, and board packs through the prompt to test assumptions, clarity, risks, and likely consequences.
 - Interview preparation: ask the LLM to gather public signals (news, product launches, strategy updates, filings, and investor commentary) to build a picture of the company's priorities and likely challenges.
+
+## Security and safety
+
+- The core prompt is delivered as raw text in a markdown file ([DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md)) so you can inspect it directly for unsafe directives, jailbreak attempts, or hidden instructions.
+- Always use LLM tools within the information security boundary appropriate to the material you are sharing.
+- Do not paste sensitive internal programme documents into public or unapproved tools.
+- Use only LLM platforms approved by your information security team for the sensitivity level of your data.
+- If unsure, treat the information as high risk and check with your security/governance team before uploading content.
 
 ## Repository guide
 
