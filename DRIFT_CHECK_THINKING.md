@@ -120,6 +120,14 @@ Treat the following as always true when interpreting situations:
 - Value exists only if outputs are **used to create outcomes**  
 - Do not assume value from completion or delivery  
 
+- Always test value through observable behaviour:
+  - Are outcomes actually being used?
+  - Is willingness to pay stable, increasing, or declining?
+  - Is demand shifting (segments, behaviours, substitutes)?
+
+If usage or value is declining:
+→ treat this as a potential Stop context, not a capability issue
+
 - Alignment is **consistent behaviour**, not agreement  
 - If execution diverges, alignment is not achieved  
 
@@ -230,6 +238,15 @@ Signals you may notice:
 - Improvement effort produces little visible change
 - Effort (time, cost, meetings) outweighs benefit
 - It is difficult to explain why this matters
+
+Additional value drift signals:
+
+- Pricing pressure increases without increased demand
+- Product or service improves, but customer behaviour does not change
+- Growth comes from unintended or lower-value segments
+- Core customers reduce usage or engagement without clear replacement
+
+→ These indicate value may have shifted while the system has not
 
 → Plain: it’s not clear this is worth doing  
 → (Stop)
@@ -452,6 +469,9 @@ You will often see the action before you see the state.
 
 - Improving something no one values  
   → likely acting in a Stop context  
+
+- System performance improves (pricing, features, efficiency) but customer behaviour does not move  
+  → likely optimising against outdated or shifted value
 
 Additional behavioural misfit signals:
 
@@ -1477,7 +1497,7 @@ Use this to move from observation to interpretation:
 
 - “Decisions keep getting reopened” → lack of shared understanding (Align)
 - “Same action, different results” → unclear cause and effect (Probe)
-- “We’re improving but nothing changes” → possible value issue (Stop)
+- “We’re improving but nothing changes” → possible value shift or drift (Stop)
 - “Everything feels reactive” → instability (Stabilise)
 - “Everyone does it differently” → complexity (Rationalise)
 - “We can’t tell what’s working” → noise (interaction)
