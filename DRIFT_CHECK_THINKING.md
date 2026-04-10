@@ -205,6 +205,20 @@ Probing should reduce uncertainty over time.
 
 If experiments increase noise without clearer understanding, the system is becoming more confused, not more informed.
 
+#### Innovation / discontinuous change
+
+Signals you may notice:
+- Exploring ideas where success criteria are not yet proven
+- Value is assumed but not yet demonstrated
+- High variability in outcomes between attempts
+
+→ Plain: this is exploration, not performance
+
+**Risk pattern:**
+- Treated as if it should already perform (optimise, scale, standardise)
+
+→ Leads to premature convergence on weak solutions
+
 ---
 
 ### Questionable value (Stop)
@@ -239,6 +253,25 @@ Look for:
 
 In these cases, the most effective action may be to stop, reduce, or pause — not improve.
 
+### Structural limit / capability ceiling
+
+Signals you may notice:
+- Performance improvements yield diminishing returns
+- System is stable but outcomes no longer meet current needs
+- Increasing effort produces marginal or no additional value
+- Local metrics improve but system-level outcomes do not
+
+→ Plain: the system works, but not enough to matter
+
+**Risk pattern:**
+- Continued optimisation of a system that cannot meet current or future needs
+
+→ Leads to local optimisation, added complexity, and effort without meaningful gain
+
+**Implication:**
+- Improvement is no longer sufficient
+- A different approach or capability may be required (discontinuous change)
+
 ---
 
 ## Capability State Signals (What kind of action fits?)
@@ -252,6 +285,25 @@ Use this sequence explicitly where helpful:
 - “you may be trying to optimise before the system is ready”
 
 Again, anchor in observable signals.
+
+### Capability does not yet exist
+
+Signals you may notice:
+- Outcomes depend on specific individuals or one-off efforts
+- Success cannot be reliably reproduced
+- No stable method produces consistent results
+- Results vary significantly even with similar inputs
+
+→ Plain: this is not yet a capability, it is being created
+
+**Risk pattern:**
+- Treated as an established capability (targets, SLAs, optimisation)
+
+→ Leads to illusion of performance, hidden fragility, and burnout
+
+**Implication:**
+- Focus on creation before stabilisation
+- Do not optimise or scale yet
 
 ### Instability (Stabilise)
 
@@ -429,6 +481,7 @@ Be explicit about what actually happens.
 | Optimising in uncertainty (Probe) | Improving without understanding cause and effect | Wrong things get improved, effort wasted, hidden issues scale |
 | Rationalising in uncertainty | Simplifying based on assumptions | Wrong simplification, real problem remains or worsens |
 | Acting in Stop contexts | Improving or scaling low-value work | Effort increases with little or no return, opportunity cost rises |
+| Optimising beyond the useful limit | Continuing to improve a system that has reached its effective ceiling | Effort increases, complexity grows, but outcomes do not materially improve |
 
 Always link misfit to **real consequences**, not abstract risk.
 
@@ -757,6 +810,9 @@ Always translate into plain language first.
 - “We automated it and now it fails faster” → optimisation applied to instability
 - “We agreed this, but it’s not happening” → likely incentive or alignment issue (Align)
 - “Each team is doing what works for them” → local optimisation overriding system intent
+- “We’re getting better, but it matters less” → possible capability ceiling
+- “It worked once, but we can’t repeat it” → capability does not yet exist
+- “We need innovation” (without clear constraint) → possible displacement
 
 ---
 
@@ -991,6 +1047,22 @@ Challenge:
 - forced standardisation
 - scaling before understanding
 - activity without value
+
+### Exploration vs avoidance (interpretation check)
+
+Some behaviours that look like avoidance may be attempts to create space for learning.
+
+Test:
+
+- Is uncertainty reducing over time?
+- Are decisions becoming clearer?
+- Is the work moving toward something that can be stabilised?
+
+If yes:
+→ effective exploration (Probe)
+
+If no:
+→ possible avoidance or displacement
 
 ### Hidden persistence check
 
@@ -1845,6 +1917,12 @@ Always consider:
 ### Guiding Question
 
 > “If this layer is weak, what happens to everything built on top of it?”
+
+> “Are we improving something — or trying to create it?”
+
+> “If this worked perfectly, would it actually be enough?”
+
+> “Are we trying to improve something that hasn’t yet proven it works?”
 
 ---
 
