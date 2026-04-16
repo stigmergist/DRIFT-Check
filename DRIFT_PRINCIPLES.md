@@ -159,9 +159,124 @@
 
 ---
 
+## 12) Additional Principles (how to apply the thinking)
+
+- Insight should reduce to the **smallest useful set of interacting elements**, not describe the whole system  
+- System behaviour is best understood through **interactions, not isolated factors**  
+
+- The value of insight is in making **likely future behaviour visible**  
+- If an observation does not imply a consequence, it is incomplete  
+
+- A **partial but clear insight is more useful than a complete but slow one**  
+- Thinking should enable **movement, not certainty**  
+
+- The model is a **lens to sharpen perception**, not a structure to organise answers  
+- Forcing situations into categories reduces fidelity to reality  
+
+- **Observed behaviour is more reliable than stated intent**  
+- Behaviour is assumed to be **locally rational**, shaped by incentives and constraints  
+
+- Misalignment may reflect **incentives, not lack of understanding**  
+- Systems tend toward what is **rewarded, tolerated, or protected**  
+
+- Insight comes from **tension, contradiction, and mismatch**, not smooth explanations  
+- Consistency between narrative and behaviour should be **tested, not assumed**  
+
+- The purpose of analysis is to **improve decisions**  
+- If an insight does not change action, timing, or investment, it has limited value  
+
+- Observations are **time-sensitive**; in fast-moving systems, **late accuracy is equivalent to error**  
+
+- There is no universal best practice — only **contextually appropriate action**  
+- The same action can improve or degrade a system depending on its state  
+
+- Early decisions should favour **direction over precision**  
+- Precision without fit increases fragility  
+
+- Not all problems can be improved; some are **constraints to navigate**  
+- Distinguish between **changing the system and operating within it**  
+
+- System boundaries shape interpretation; misfit often comes from **what is excluded or included**  
+
+- There is a tension between **speed and correctness of action**  
+- The balance depends on reversibility, risk, and consequence of being wrong  
+
+- Most decisions are not choices between right and wrong, but between **competing risks**  
+- Effective action requires **balancing opposing failure modes**, not maximising a single dimension  
+
+- Pushing any principle too far creates its opposite problem:
+  - speed → loss of control  
+  - caution → loss of opportunity  
+  - simplicity → loss of necessary nuance  
+  - optimisation → increased fragility  
+
+- Good judgement operates between extremes:
+  - acting too early vs acting too late  
+  - over-simplifying vs over-complicating  
+  - over-aligning vs fragmented execution  
+  - over-analysing vs premature action  
+
+- The aim is not to eliminate trade-offs, but to **position appropriately within them**  
+
+- Where you sit depends on:
+  - reversibility of decisions  
+  - absorption capacity of the system  
+  - cost of being wrong vs cost of delay  
+
+- Imbalance is visible when:
+  - one principle is applied regardless of context  
+  - a strength becomes a source of failure  
+  - the system drifts toward one extreme under pressure  
+
+- Improvement comes from **rebalancing, not maximising**  
+
+- Judgement is the ability to **select what matters and ignore what does not**  
+- Its quality is reflected in **what is left out**, not what is included  
+
+- Good judgement selects the **minimum signals that explain behaviour**  
+- Poor judgement adds detail without increasing clarity  
+
+- Judgement distinguishes:
+  - signal from noise  
+  - pattern from coincidence  
+  - constraint from opportunity  
+
+- The model does not replace judgement — it **constrains and sharpens it**  
+
+- Judgement should favour:
+  - **actionable clarity over completeness**
+  - **direction over precision early on**  
+
+- The required quality of judgement depends on **reversibility and absorption capacity**  
+- When actions are reversible and the system can absorb failure → **lower precision judgement is acceptable**  
+- When actions are irreversible or absorption capacity is low → **higher precision and fit are required**  
+
+- Improvement should be judged by behaviour under stress  
+- If performance depends on conditions or individuals, **fragility remains**  
+
+- The type of action applied reveals **how the situation is understood**  
+- Misapplied action signals **misfit or hidden constraints**  
+
+- Choosing not to act is a **valid outcome**  
+- Continuing low-value work increases cost without improving the system  
+
+- The purpose of thinking is to **change what happens next**  
+- If nothing changes, the thinking has not been effective  
+
+---
+
 ## Core Idea
 - **Capability = ability to produce an outcome**  
 - **Aim = reliably and efficiently**  
+
 - **Observation = reveals state and action**  
+- **Judgement = balances competing choices under constraint and uncertainty**  
+
+- **Context = determines whether it is appropriate to act**  
 - **Action = should match state**  
+
+- **Outcome = what the system actually produces and what happens next**  
+- **Value = whether outcomes are used to create impact**  
+
 - **Failure = misfit between state and action**  
+- **Risk = consequence of misfit over time**  
