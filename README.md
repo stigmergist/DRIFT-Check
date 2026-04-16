@@ -2,6 +2,8 @@
 
 This repository contains a prompt designed to run inside an LLM to help you understand an organisational situation more clearly.
 
+You can jump straight in and download it [here](https://raw.githubusercontent.com/stigmergist/DRIFT-Check/refs/heads/main/DRIFT_CHECK_THINKING.md ) (right-click, 'Download as...' - see [instructions](#how-to-use-this-prompt-in-an-llm))
+
 ## What this is
 
 - A thinking tool for sense-making in messy organisational contexts.
@@ -30,12 +32,13 @@ This prompt is built to improve judgment quality, not to automate judgment.
 
 For a future side-by-side boundary comparison against methods/frameworks, see [METHOD_COMPARISON.md](METHOD_COMPARISON.md).
 
+
 ## How to use this prompt in an LLM
 
 ### 1. Start by sharing the prompt
 
 - First, share [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md) with the assistant (see [Security and safety](README.md#security-and-safety) and make sure you are using an appropriate approved AI chat for your information).
-  - Option 1: add it to chat as a file attachment.
+  - Option 1: download it and add it to chat as a file attachment.
   - Option 2: if your chat tool does not let you attach files, copy all text from [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md) and paste it as your first message.
   - Better option for repeat use: create a persistent assistant and store this prompt as its main instruction.
     - Microsoft Copilot (Copilot Studio Agents): https://learn.microsoft.com/microsoft-copilot-studio/
@@ -70,6 +73,11 @@ You can copy and paste one of these:
 - "What might I be missing or assuming without real evidence?"
 - "If we do nothing, what is the most likely outcome in the short term?"
 - "What is one practical next step we could take this week to learn more before making a bigger decision?"
+
+Depending on the capabilities of your LLM, you might ask it to do large scoped analysis:
+- "here's a large board pack. give me drift check and help me understand the difference between the intention and the signalled reality, so that I can focus on the rigth issues"
+- "here are N programmes and their bsuiness cases, plans, risk logs, etc. all in the same organisation., give me a drift check of the situation"
+- "Look at companies in the XXX sector. find online information about them inclduing recent news articels, features, blog posts, company filings, company documents, audits, analysts findings, employee ratings, customer ratings, and information on the sector they are in. Consider the capabiltities stacks and what underlying capabilities the share - and any systemic risk this might imply. With relevant links and quotes taht can be verified, give my a DRIFT based analysis of what is going on."
 
 ### 4. Continue until clarity
 
