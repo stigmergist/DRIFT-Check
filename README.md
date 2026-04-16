@@ -4,6 +4,8 @@ This repository contains a prompt designed to run inside an LLM to help you unde
 
 You can jump straight in and download it [here](https://raw.githubusercontent.com/stigmergist/DRIFT-Check/refs/heads/main/DRIFT_CHECK_THINKING.md ) (right-click, 'Download as...' - see [instructions](#how-to-use-this-prompt-in-an-llm))
 
+Or there is a [chat bot on the ChatGPT Store](https://chatgpt.com/g/g-69ce433adb988191ba0ef75e8e87204c-drift-check) that uses it.
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31XXGLZ)
 
 ## What this is
