@@ -56,6 +56,7 @@ For a future side-by-side boundary comparison against methods/frameworks, see [M
 Discuss what is happening in your organisation right now:
 
 - what is happening now
+- share documents, spreadsheets, links, etc. for context (make sure you're not breaking an info security!)
 - what decisions are pending
 - what outcomes are inconsistent or unclear
 - what people are saying versus what they are doing
