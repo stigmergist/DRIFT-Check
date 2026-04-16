@@ -1,8 +1,10 @@
-# DRIFT Check
+# DRIFT Check 
 
 This repository contains a prompt designed to run inside an LLM to help you understand an organisational situation more clearly.
 
 You can jump straight in and download it [here](https://raw.githubusercontent.com/stigmergist/DRIFT-Check/refs/heads/main/DRIFT_CHECK_THINKING.md ) (right-click, 'Download as...' - see [instructions](#how-to-use-this-prompt-in-an-llm))
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W31XXGLZ)
 
 ## What this is
 
