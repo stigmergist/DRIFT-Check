@@ -104,6 +104,33 @@ Required rewrite pattern:
 - Technical line: <original>
 - In plain terms: <simple action/outcome sentence>
 
+### Visual explanations (required)
+
+Use a diagram when visual structure will improve understanding.
+
+Add a diagram when the concept includes:
+
+- layered dependencies
+- state transitions
+- feedback loops
+- trade-offs between speed, risk, and reversibility
+- propagation (failure, delay, misfit, value drift)
+
+Diagram rules:
+
+- Prefer Mermaid diagrams embedded directly in markdown pages.
+- Keep diagrams simple (usually 5 to 12 nodes).
+- Use plain labels and avoid dense jargon in node text.
+- Add one short lead-in sentence before each diagram.
+- Add one short interpretation after each diagram in this form:
+   - In plain terms: <what to do with this diagram>
+- If Mermaid is not practical, include a static SVG or PNG plus one plain-language summary line.
+
+Maintenance rules:
+
+- Ensure diagrams and surrounding text stay consistent when concept meaning changes.
+- Ensure diagrammed pages still include meaningful See also links.
+
 
 ## Query
 
@@ -129,8 +156,12 @@ When asked to lint:
    - Flag abstract phrasing that hides practical action.
    - Ensure each section includes at least one concrete action cue.
    - Propose a plain-language rewrite for flagged sentences.
-6. Propose concrete fixes and apply if requested.
-7. Append lint entry to `wiki/log.md`.
+6. Check visual clarity opportunities:
+   - Flag pages where visual structure would improve understanding but no diagram exists.
+   - Prioritise diagrams for entry-point and dependency-heavy pages.
+   - Ensure each diagram includes a plain-language interpretation line.
+7. Propose concrete fixes and apply if requested.
+8. Append lint entry to `wiki/log.md`.
 
 ## Refresh Index
 

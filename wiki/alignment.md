@@ -4,6 +4,22 @@ Alignment is consistent behaviour produced by shared understanding.
 
 DRIFT deliberately avoids defining alignment as agreement in conversation. Teams can agree verbally and still execute in conflicting ways. Real alignment is visible in decisions that travel well across boundaries and in actions that stay coherent when local pressure increases.
 
+This distinction is central:
+
+```mermaid
+flowchart TD
+	V[Verbal agreement]
+	B{Behaviour consistent across teams?}
+	A[Real alignment]
+	M[Misalignment in execution]
+
+	V --> B
+	B -->|Yes| A
+	B -->|No| M
+```
+
+In plain terms: do not trust agreement alone; check how teams actually behave.
+
 Misalignment is often misdiagnosed as communication failure. Sometimes it is. Sometimes it is structural: incentives, targets, or governance pressures reward different behaviours even when understanding is shared.
 
 Alignment has two parts. People need shared meaning, and incentives must support the same behaviour.

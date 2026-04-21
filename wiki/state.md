@@ -8,6 +8,20 @@ This distinction is central to DRIFT. Teams usually describe systems through int
 
 A system's state is visible in recurrence. Check what keeps happening, what only works with effort, where variation appears, where handoffs fail, and where speed or quality drifts. State is empirical and dynamic.
 
+This is the core state-learning loop:
+
+```mermaid
+flowchart LR
+	O[Observe behaviour]
+	I[Interpret current state]
+	A[Apply action]
+	N[Observe new state]
+
+	O --> I --> A --> N --> I
+```
+
+In plain terms: keep checking what changed after action, then adjust quickly.
+
 Action should be chosen against **[observed](observation.md)** state, not planned state. When those diverge, **[misfit](misfit.md)** grows. That is why systems often look controlled in documents but unstable in practice.
 
 State also exists across multiple layers. A **[programme](programme.md)** may look stable at portfolio level while operationally unstable at team level. That is not a contradiction; it is a stacked system revealing different conditions in different places.

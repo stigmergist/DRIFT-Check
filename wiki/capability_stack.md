@@ -10,6 +10,21 @@ Thinking in stacks prevents a common mistake: treating surface outcomes as self-
 
 Value flows bottom-to-top: lower layers create the possibility for what sits above them. A data platform enables execution capability. Execution capability enables coordination. Coordination enables delivery. Delivery enables customer outcomes.
 
+This flow is easier to see as a stack:
+
+```mermaid
+flowchart BT
+	A[Data / Platform / Control]
+	B[Execution]
+	C[Coordination / Integration]
+	D[Service / Product Delivery]
+	E[Customer Outcome]
+
+	A --> B --> C --> D --> E
+```
+
+In plain terms: check lower-layer reliability before scaling visible customer outcomes.
+
 But there is a critical asymmetry: each layer is constrained by the reliability of what it depends on. A capability cannot be more reliable than the capabilities beneath it. If it appears more stable, the system is using slack, workarounds, or extra effort to mask underlying problems.
 
 When dependency is high and reliability is variable, that variability propagates upward and becomes amplified. An inconsistent data pipeline creates inconsistent execution, which creates inconsistent coordination outcomes, which creates inconsistent customer experience. What started as 10% variability in the base layer can become 50% variability in customer-facing delivery.

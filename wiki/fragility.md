@@ -8,6 +8,21 @@ Fragile systems can look stable in normal conditions and fail abruptly under str
 
 Fragility develops through a predictable sequence. Instability at a lower layer — unreliable tooling, variable processes, personnel changes — creates inconsistent inputs to the layers above. When those inputs are inconsistent, teams create workarounds: manual checks, parallel processes, or informal coordination.
 
+The propagation pattern can be mapped directly:
+
+```mermaid
+flowchart TD
+	A[Lower-layer instability]
+	B[Inconsistent inputs]
+	C[Workarounds become normal]
+	D[Hidden effort rises]
+	E[Top-layer delivery failure]
+
+	A --> B --> C --> D --> E
+```
+
+In plain terms: fix instability early at the source layer before it is masked by workarounds.
+
 Over time, workarounds become default practice. The system then depends on extra effort to hide instability. If that effort disappears, hidden problems surface at the top as unpredictable delivery, inconsistent results, or customer experience failures.
 
 What looks like a top-layer crisis is usually lower-layer instability that was masked for too long. A missed deadline that "came out of nowhere" often had warning signs weeks earlier in data velocity, defect rates, or incident frequency.

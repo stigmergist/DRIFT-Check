@@ -107,3 +107,15 @@ Append-only chronological record of ingest, query, lint, and maintenance operati
 - Files changed: `wiki/align_context.md`, `wiki/alignment.md`, `wiki/judgement.md`, `wiki/reversibility.md`, `wiki/signals_and_noise.md`, `wiki/value.md`, `wiki/log.md`
 - Summary: Applied plain-language rewrites to abstract phrasing and added clearer action cues in top flagged lines. Re-ran strict lint and link validation (`ALL_LINKS_OK`). Readability improved; remaining low-score items are mostly due to heuristic action-verb detection rather than dense sentence length.
 - Follow-ups: Consider a section-level action cue line in remaining conceptual pages to satisfy strict action-verb lint heuristics.
+
+## [2026-04-21] maintain | add visual explanation rules and pilot diagrams
+- Scope: Added mandatory diagram guidance to instructions and embedded Mermaid diagrams in pages where structure benefits from visualisation.
+- Files changed: `.github/copilot-instructions.md`, `wiki/capability_stack.md`, `wiki/context.md`, `wiki/fragility.md`, `wiki/decision_thresholds.md`, `wiki/log.md`
+- Summary: Added a required "Visual explanations" section in instructions (when to diagram, Mermaid-first rule, interpretation line requirement, and lint checks for missing visuals). Added pilot diagrams for layered dependencies (`capability_stack.md`), context-state decision flow (`context.md`), failure propagation (`fragility.md`), and reversibility/absorption threshold mapping (`decision_thresholds.md`). Each diagram includes a plain-language interpretation line.
+- Follow-ups: Extend diagrams to additional dependency-heavy pages during future refresh cycles.
+
+## [2026-04-21] maintain | full diagram rollout on core structural pages
+- Scope: Added diagrams to all remaining high-value pages identified for visual support.
+- Files changed: `wiki/state.md`, `wiki/misfit.md`, `wiki/value.md`, `wiki/probe.md`, `wiki/reversibility.md`, `wiki/absorption_capacity.md`, `wiki/alignment.md`, `wiki/proceed.md`, `wiki/align_context.md`, `wiki/stop.md`, `wiki/log.md`
+- Summary: Added Mermaid diagrams plus plain-language interpretation lines to all requested pages. Coverage includes state observation loop, action-state fit map, value/progress split, probe cycle, reversibility classes, absorption response, verbal-vs-behavioural alignment, and context transition maps for Proceed/Align/Stop. Verified `ALL_LINKS_OK` after edits.
+- Follow-ups: Consider adding diagrams to `programme.md` and `external_validity.md` in next pass.

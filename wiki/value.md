@@ -6,6 +6,22 @@ This sounds obvious, but it is frequently violated in practice. Teams often trea
 
 Value is therefore behavioural and contextual. It is behavioural because it appears in what people do, not just what they say. It is contextual because something can be valuable in one environment and irrelevant in another. Check external demand regularly. A capability can be internally strong while external value declines.
 
+Use this split to avoid confusing delivery progress with value:
+
+```mermaid
+flowchart LR
+	C[Capability quality improves]
+	U{Are outcomes used?}
+	V[Value grows]
+	D[Value drifts]
+
+	C --> U
+	U -->|Yes| V
+	U -->|No| D
+```
+
+In plain terms: do not call it value until usage and impact are visible.
+
 ## Value drift
 
 One key risk in DRIFT is value drift: the system keeps improving at something that matters less over time. This can happen quietly. Efficiency increases. Internal metrics improve. Teams become highly competent. Yet customer behaviour does not move, or moves away. The organisation gets better at the wrong thing.

@@ -8,6 +8,26 @@ This separation matters because organisations often jump straight to "what shoul
 
 The context states are **[Proceed](proceed.md)**, **[Align](align_context.md)**, **[Probe](probe.md)**, and **[Stop](stop.md)**. They are not identity labels for teams. They are temporary readings of current conditions based on observable [signals](signals_and_noise.md).
 
+This is the operating decision flow for context:
+
+```mermaid
+flowchart TD
+	S[Observe current situation]
+	Q{Are value and conditions clear enough?}
+	P[Proceed]
+	A[Align]
+	R[Probe]
+	T[Stop]
+
+	S --> Q
+	Q -->|Yes, shared and clear| P
+	Q -->|No, interpretations diverge| A
+	Q -->|No, cause and effect unclear| R
+	Q -->|No, value unclear| T
+```
+
+In plain terms: decide the context state first, then choose intervention type.
+
 **[Proceed](proceed.md)** means the situation is clear enough and aligned enough to move. **[Align](align_context.md)** means people are not operating from the same understanding. **[Probe](probe.md)** means cause and effect are unclear and testing is needed. **[Stop](stop.md)** means value is uncertain enough that continuing may increase waste.
 
 Context and **[capability](capability.md)** are connected but distinct. Context determines whether and when to act. **[Capability state](state.md)** determines what kind of action fits.
