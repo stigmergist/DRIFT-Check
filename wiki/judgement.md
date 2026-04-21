@@ -8,4 +8,6 @@ Good judgement distinguishes signal from noise, pattern from coincidence, and co
 
 The required precision of judgement depends on reversibility and absorption capacity. Where actions are reversible and the system can absorb error, lower precision is often enough. Where actions are hard to reverse or capacity is low, higher precision is required. This is the practical role of [decision thresholds](decision_thresholds.md). Set confidence requirements to risk profile instead of using one rule for every decision.
 
-See also: [observation.md](observation.md), [signals_and_noise.md](signals_and_noise.md), [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [misfit.md](misfit.md)
+In [speed-dominant contexts](speed_dominant_contexts.md), judgement also tests opportunity decay. The key question becomes whether waiting improves decision quality more than it reduces the chance of success.
+
+See also: [observation.md](observation.md), [signals_and_noise.md](signals_and_noise.md), [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [misfit.md](misfit.md)

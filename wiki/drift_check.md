@@ -18,4 +18,10 @@ It does not replace domain expertise, governance, or accountability. It does not
 
 DRIFT is also method-agnostic. It works alongside existing frameworks and governance. See [method_mapping.md](method_mapping.md) for how to use DRIFT with your existing toolkit. For practical workflow guidance, see [docs_companion.md](docs_companion.md).
 
-See also: [context.md](context.md), [capability.md](capability.md), [observation.md](observation.md), [misfit.md](misfit.md), [judgement.md](judgement.md), [state.md](state.md), [signals_and_noise.md](signals_and_noise.md), [external_validity.md](external_validity.md), [method_mapping.md](method_mapping.md), [docs_companion.md](docs_companion.md)
+When context permits action, DRIFT also uses [solution quality](solution_quality.md) checks to test action soundness (Desirable, Feasible, Viable and their interactions).
+
+DRIFT also includes a bounded exception for [speed-dominant contexts](speed_dominant_contexts.md), where delay can reduce success probability and partial-fit action may be justified.
+
+Two additional operator checks improve application quality: [parallelism](parallelism.md), which controls change load against state, and [investment_vs_fit](investment_vs_fit.md), which prevents effort escalation before value and fit are evidenced.
+
+See also: [context.md](context.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [parallelism.md](parallelism.md), [investment_vs_fit.md](investment_vs_fit.md), [capability.md](capability.md), [observation.md](observation.md), [misfit.md](misfit.md), [judgement.md](judgement.md), [state.md](state.md), [signals_and_noise.md](signals_and_noise.md), [external_validity.md](external_validity.md), [solution_quality.md](solution_quality.md), [quality_mismatch_signals.md](quality_mismatch_signals.md), [method_mapping.md](method_mapping.md), [docs_companion.md](docs_companion.md)

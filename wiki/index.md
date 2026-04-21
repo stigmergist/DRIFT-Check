@@ -1,11 +1,13 @@
 # Wiki Index
 
-DRIFT is a tool for understanding why systems behave the way they do, and what interventions are actually worth making. This wiki explains the concepts and decision patterns embedded in DRIFT: observable signals, failures of alignment and capability, decisions about when to act and when to wait, and the interventions that actually change how a system works. For executives, this means seeing through metrics to what is really happening. For technologists, this means understanding why you keep seeing the same problems. For programme managers, this means knowing which interventions will actually work and which ones will just move the problem around.
+DRIFT is a tool for deciding what to do in messy organisational conditions.
+
+This wiki helps you read what is actually happening in a system, not just what plans or metrics claim. It shows where action is misfiring, where capability is unstable, and when stopping is the best decision. Use it to separate activity from progress and to choose interventions that fit real conditions. It works alongside existing methods and governance, not instead of them.
 
 Start here based on what you're trying to understand:
-- **If you're concerned that the same problem keeps surfacing, or that outcomes are unpredictable**, start with [capability.md](capability.md); then read [state.md](state.md) to see what actually tells you why.
-- **If you're not sure whether an initiative is worth starting, or when to stop one**, start with [context.md](context.md) and [stop.md](stop.md).
-- **If you want to understand why things feel fragmented despite having a plan**, start with [alignment.md](alignment.md) and [misfit.md](misfit.md).
+- **If the same issue keeps returning and outcomes feel inconsistent**, start with [capability.md](capability.md), then check [state.md](state.md) and [misfit.md](misfit.md).
+- **If you are unsure whether to commit, pause, or stop**, start with [context.md](context.md), then compare [decision_thresholds.md](decision_thresholds.md) and [stop.md](stop.md).
+- **If teams agree in meetings but execution still fragments**, start with [alignment.md](alignment.md), then read [align_context.md](align_context.md) and [probe.md](probe.md).
 
 Or browse the concept vocabulary at [_concepts_vocabulary.md](_concepts_vocabulary.md) to explore by topic.
 
@@ -14,8 +16,13 @@ Or browse the concept vocabulary at [_concepts_vocabulary.md](_concepts_vocabula
 - [drift_check.md](drift_check.md): What DRIFT actually asks: decision-making under uncertainty, based on what you see, not what you planned.
 - [context.md](context.md): When is it safe enough to act? The permission question: capacity, clarity, and reversibility.
 - [decision_thresholds.md](decision_thresholds.md): How much confidence is enough before acting? Depends on reversibility, absorption, and consequence.
+- [speed_dominant_contexts.md](speed_dominant_contexts.md): Exception handling for real race conditions where delay reduces success probability.
 - [capability.md](capability.md): Can you reliably produce the outcome you want? The foundation of everything.
+- [innovation_spiral.md](innovation_spiral.md): How innovation matures through repeated quality loops and where NO/STOP has the highest value.
+- [investment_vs_fit.md](investment_vs_fit.md): When effort should increase only after value and state-action fit are both visible.
 - [misfit.md](misfit.md): The pattern underneath most failures: doing the right thing for the wrong context. Happens more than you'd expect.
+- [solution_quality.md](solution_quality.md): Test whether an action is sound before scaling: desirable, feasible, viable and their interaction effects.
+- [quality_mismatch_signals.md](quality_mismatch_signals.md): Fast observable signals for want/can/worth mismatches before failure becomes explicit.
 - [observation.md](observation.md): Why you must trust observable behaviour, and why that's harder than it sounds.
 - [judgement.md](judgement.md): Deciding what matters and what's noise. Not neutral; shapes what you'll see.
 
@@ -40,6 +47,7 @@ These concepts explain why systems behave as they do, and why interventions ofte
 
 - [state.md](state.md): What the system is actually producing right now. Not what the plan says, not what metrics claim—what is it really doing?
 - [alignment.md](alignment.md): When teams produce consistent behaviour without needing to re-argue every decision. Much rarer than you'd think.
+- [incentive_conflict.md](incentive_conflict.md): When teams agree in meetings but still diverge in execution because metrics and constraints pull elsewhere.
 - [signals_and_noise.md](signals_and_noise.md): The real pattern is usually hiding in what everyone else is ignoring.
 - [complexity.md](complexity.md): Many different paths to the same outcome. Makes diagnosis harder; makes interventions unpredictable.
 - [uncertainty.md](uncertainty.md): Same action, different results. Tells you something is still unstable or you're in territory you don't understand yet.
@@ -49,8 +57,10 @@ These concepts explain why systems behave as they do, and why interventions ofte
 - [absorption_capacity.md](absorption_capacity.md): Margin to survive being wrong. Do you have it?
 - [agency.md](agency.md): What can actually be changed, and what is determined by your constraints?
 - [scaling.md](scaling.md): What happens when you amplify an intervention? Does the gain hold, or does it break?
+- [parallelism.md](parallelism.md): How much change can run at once before interactions overwhelm learning and control.
 - [innovation.md](innovation.md): Building something new while navigating uncertainty. Different constraints than optimization.
 - [local_optimisation.md](local_optimisation.md): Winning locally while losing the war. Happens when you're not watching the wider system.
+- [capability_ceiling.md](capability_ceiling.md): The point where more optimisation no longer changes meaningful outcomes.
 
 ## Building and Defending Value
 
@@ -61,11 +71,14 @@ Once you know what you're trying to do, these concepts explain how to know if it
 - [programme.md](programme.md): Treating change as a testable hypothesis, not a plan to execute.
 - [capability_stack.md](capability_stack.md): Layered dependencies; each layer has to work for the one above it to matter.
 - [external_validity.md](external_validity.md): Is the system still worth being good at? Shapes when to stop investing.
+- [value_drift.md](value_drift.md): Internal performance improves, but external use or demand does not. A key signal to pause and reframe.
 
 ## Using DRIFT in Practice
 
 - [docs_companion.md](docs_companion.md): How to use the docs workflow as you work, not after.
 - [method_mapping.md](method_mapping.md): DRIFT alongside other frameworks you may already use.
+- [solution_quality.md](solution_quality.md): Use this after Proceed is likely, or lightly during Probe.
+- [speed_dominant_contexts.md](speed_dominant_contexts.md): Use this when speed may be the advantage and over-caution becomes costly.
 
 ## Reference
 

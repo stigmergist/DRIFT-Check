@@ -8,4 +8,6 @@ Teams often experience pressure to scale as proof of success. DRIFT reframes sca
 
 A useful question before scaling is: what pattern are we about to amplify? That question should be paired with [decision thresholds](decision_thresholds.md): what level of confidence is required before amplification is justified.
 
-See also: [capability.md](capability.md), [misfit.md](misfit.md), [fragility.md](fragility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [optimise.md](optimise.md)
+Scaling decisions should also include [parallelism](parallelism.md). Running too many changes at once can erase gains by increasing interaction effects faster than the system can absorb.
+
+See also: [capability.md](capability.md), [parallelism.md](parallelism.md), [misfit.md](misfit.md), [fragility.md](fragility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [optimise.md](optimise.md)

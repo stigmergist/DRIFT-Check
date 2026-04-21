@@ -36,4 +36,14 @@ Good context decisions also require clarity on **[agency](agency.md)**. Check wh
 
 They also require explicit [decision thresholds](decision_thresholds.md): how much confidence is enough before acting, given reversibility, absorption capacity, and the consequence of being wrong.
 
+Mixed states are also common and should be handled explicitly:
+
+- [align_context](align_context.md) + [probe](probe.md): align on the question first, then test.
+- [proceed](proceed.md) + [probe](probe.md): move with bounded scope while learning.
+- [align_context](align_context.md) + [stop](stop.md): resolve value disagreement before committing.
+- [probe](probe.md) + [stop](stop.md): test value existence before deeper diagnosis.
+- [proceed](proceed.md) + [align_context](align_context.md): recheck interpretation alignment before scaling.
+
+In plain terms: if one label does not fit cleanly, use pair states to avoid forcing a false single-state decision.
+
 See also: [proceed.md](proceed.md), [align_context.md](align_context.md), [probe.md](probe.md), [stop.md](stop.md), [capability.md](capability.md), [state.md](state.md), [alignment.md](alignment.md), [signals_and_noise.md](signals_and_noise.md), [drift_check.md](drift_check.md), [agency.md](agency.md), [decision_thresholds.md](decision_thresholds.md)

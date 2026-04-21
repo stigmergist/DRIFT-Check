@@ -24,4 +24,8 @@ In plain terms: pause first, then restart only after value is clear again.
 
 High-performing teams can resist Stop because it feels like loss of momentum. DRIFT treats it as a quality decision when evidence supports it.
 
-See also: [context.md](context.md), [value.md](value.md), [programme.md](programme.md), [drift_check.md](drift_check.md), [external_validity.md](external_validity.md)
+Stop is especially important when [value drift](value_drift.md) is visible. Internal performance can improve while external relevance falls.
+
+Stop is also a quality signal in early [innovation_spiral](innovation_spiral.md) loops. A fast NO can save significant downstream waste.
+
+See also: [context.md](context.md), [innovation_spiral.md](innovation_spiral.md), [value.md](value.md), [value_drift.md](value_drift.md), [programme.md](programme.md), [drift_check.md](drift_check.md), [external_validity.md](external_validity.md), [capability_ceiling.md](capability_ceiling.md)

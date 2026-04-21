@@ -22,6 +22,6 @@ In plain terms: keep acting, but re-check signals so you can switch state early.
 
 Typical signals include decisions that are not repeatedly reopened, consistency between data and frontline interpretation, and execution that does not splinter across teams. These point to [alignment.md](alignment.md), which is the consistency of behaviour needed to sustain action.
 
-Proceed is a permission state, not an action type. It still requires choosing the right capability intervention.
+Proceed is a permission state, not an action type. It still requires choosing the right capability intervention and checking [solution quality](solution_quality.md) before scaling.
 
-See also: [context.md](context.md), [capability.md](capability.md), [align_context.md](align_context.md), [probe.md](probe.md), [stop.md](stop.md), [alignment.md](alignment.md), [stabilise.md](stabilise.md)
+See also: [context.md](context.md), [solution_quality.md](solution_quality.md), [quality_mismatch_signals.md](quality_mismatch_signals.md), [capability.md](capability.md), [align_context.md](align_context.md), [probe.md](probe.md), [stop.md](stop.md), [alignment.md](alignment.md), [stabilise.md](stabilise.md)

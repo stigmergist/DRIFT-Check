@@ -34,11 +34,15 @@ When asked to ingest source(s):
 
 1. Read the source file(s) fully.
 2. Before writing anything, identify the atomic ideas in the source: the smallest meaningful concepts that could stand alone and be referenced from elsewhere.
-3. Give each atomic idea its own page. Do not bundle unrelated ideas together just because they appeared in the same source.
-4. Write each page as a genuine explanation of that idea. Lead with what it actually means in plain language. Then explain why it matters, what it implies, how it goes wrong, and how it connects to other ideas. Let the structure emerge from what the idea needs.
-5. Link pages to each other where the relationship is real and meaningful. If page A depends on page B, both should usually link to each other.
-6. Note tensions and contradictions. Do not flatten disagreement.
-7. Update control files: `wiki/index.md`, `wiki/sources.md`, `wiki/_concepts_vocabulary.md` (add any new concept pages), and append to `wiki/log.md`.
+3. Build a **Source Concept Inventory** before writing pages. For each meaningful source section or heading, record: section title, extracted concepts, target wiki page (existing/new), action (create/update/no-change), and one-line rationale.
+4. Explicitly detect **linked idea groups** of size 2, 3, 4, 5, and 6. This includes pairs, triads, larger grouped sets, interaction sets (for example A×B), and gated sets (for example apply in Proceed, skip in Align/Stop).
+5. Map each meaningful linked group to one of: a dedicated page, a dedicated section in an existing page, or an explicit cross-link cluster across pages.
+6. Do not complete ingest until every meaningful section and every meaningful linked group is mapped or intentionally excluded with a reason.
+7. Give each atomic idea its own page. Do not bundle unrelated ideas together just because they appeared in the same source.
+8. Write each page as a genuine explanation of that idea. Lead with what it actually means in plain language. Then explain why it matters, what it implies, how it goes wrong, and how it connects to other ideas. Let the structure emerge from what the idea needs.
+9. Link pages to each other where the relationship is real and meaningful. If page A depends on page B, both should usually link to each other.
+10. Note tensions and contradictions. Do not flatten disagreement.
+11. Update control files: `wiki/index.md`, `wiki/sources.md`, `wiki/_concepts_vocabulary.md` (add any new concept pages), and append to `wiki/log.md`.
 
 ### What good pages look like
 
@@ -160,8 +164,41 @@ When asked to lint:
    - Flag pages where visual structure would improve understanding but no diagram exists.
    - Prioritise diagrams for entry-point and dependency-heavy pages.
    - Ensure each diagram includes a plain-language interpretation line.
-7. Propose concrete fixes and apply if requested.
-8. Append lint entry to `wiki/log.md`.
+7. Check source-to-wiki concept coverage and grouped-set coverage:
+   - For each ingested source, verify each meaningful source section maps to at least one wiki page or section.
+   - Scan for linked idea groups of size 2, 3, 4, 5, and 6 in source content, then verify each group appears in the wiki as a page, section, or explicit cross-link cluster.
+   - Flag grouped sets that are missing, partial, or fragmented across pages without clear navigation.
+8. Propose concrete fixes and apply if requested.
+9. Append lint entry to `wiki/log.md`.
+
+## Gap Check
+
+When asked to run a gap check:
+1. Confirm scope:
+   - single source path, or all raw files.
+2. Read source file(s) fully.
+3. Build a **Source Opportunity Inventory**:
+   - for each meaningful source section, list section title, existing wiki coverage, and coverage status (covered/partial/missing).
+4. Compare raw source content against wiki pages for:
+   - missing concepts,
+   - thin explanations (present but not decision-useful),
+   - missing cross-links between related concepts,
+   - missing grouped-set coverage (pairs, triads, and grouped sets of 4, 5, 6),
+   - missing practical cues (observable signals, action cues, decision questions),
+   - missing visual aids where structure is hard to follow.
+5. Produce an **Opportunity Register**. Each opportunity must include:
+   - Opportunity name (short and specific),
+   - Why it matters,
+   - Evidence (source section and related wiki page links),
+   - Gap type,
+   - Suggested wiki action,
+   - 2 to 5 concrete questions that illustrate what is missing.
+6. Prioritise opportunities:
+   - High: likely to cause misunderstanding or weak decisions,
+   - Medium: partial understanding or weak navigation,
+   - Low: clarity polish.
+7. If requested, apply fixes and update `wiki/index.md`, `wiki/sources.md`, `wiki/_concepts_vocabulary.md`, and `wiki/log.md`.
+8. Record `last gap scan date` and notes in `wiki/sources.md`, then append a gap-check entry in `wiki/log.md`.
 
 ## Refresh Index
 
@@ -175,7 +212,8 @@ When asked to refresh index:
 The index is the navigator's first encounter with the wiki. It must be more than a bare catalog; it is part of the user experience.
 
 **Opening Section (required):**
-- Lead with a 2–4 sentence explanation of what the wiki is for and what problems it solves (observable, decision-maker language).
+- Lead with a single sentence description of DRFIT
+- Follow with a 2–4 sentence explanation of what the wiki is for and what problems it solves (observable, decision-maker language).
 - Include 2–3 brief entry points: "Start here if you're concerned about...", "Start here if you're not sure whether...", "Start here if you want to understand...".
 - These entry points should name observable situations, not abstract concepts.
 
@@ -209,7 +247,7 @@ Fields: Scope, Files changed, Summary, Follow-ups (optional).
 
 ## Source Registry Format
 
-Per source: source path, category (core/docs/background), ingested (yes/no), last ingested date, linked wiki pages, notes.
+Per source: source path, category (core/docs/background), ingested (yes/no), last ingested date, linked wiki pages, concept coverage (complete/partial), unmapped concepts, last gap scan date, notes.
 
 ## Command Vocabulary
 
@@ -219,6 +257,9 @@ Per source: source path, category (core/docs/background), ingested (yes/no), las
 - `show recent activity`
 - `query wiki: <question>`
 - `lint wiki`
+- `gap check <path>`
+- `gap check background`
+- `show gap opportunities`
 - `show source coverage`
 
 ## Guardrails

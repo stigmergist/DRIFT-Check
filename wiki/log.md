@@ -119,3 +119,51 @@ Append-only chronological record of ingest, query, lint, and maintenance operati
 - Files changed: `wiki/state.md`, `wiki/misfit.md`, `wiki/value.md`, `wiki/probe.md`, `wiki/reversibility.md`, `wiki/absorption_capacity.md`, `wiki/alignment.md`, `wiki/proceed.md`, `wiki/align_context.md`, `wiki/stop.md`, `wiki/log.md`
 - Summary: Added Mermaid diagrams plus plain-language interpretation lines to all requested pages. Coverage includes state observation loop, action-state fit map, value/progress split, probe cycle, reversibility classes, absorption response, verbal-vs-behavioural alignment, and context transition maps for Proceed/Align/Stop. Verified `ALL_LINKS_OK` after edits.
 - Follow-ups: Consider adding diagrams to `programme.md` and `external_validity.md` in next pass.
+
+## [2026-04-21] ingest | ingest all new background documents
+- Scope: Ingested all pending background sources and integrated new atomic concepts into the wiki graph.
+- Files changed: `wiki/incentive_conflict.md` (new), `wiki/value_drift.md` (new), `wiki/alignment.md`, `wiki/align_context.md`, `wiki/external_validity.md`, `wiki/value.md`, `wiki/stop.md`, `wiki/programme.md`, `wiki/observation.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Completed ingest for `background/incentive-vs-alignment.md`, `background/external_validity_and_value_drift.md`, and `background/aphorisms.md`. Added two new atomic concept pages (`incentive_conflict`, `value_drift`), strengthened links across alignment/value/stop/programme pages, and incorporated practitioner posture cues from aphorisms into observation and programme language.
+- Follow-ups: Run lint for backlink density and readability on the two new concept pages; consider adding diagrams to `programme.md` and `external_validity.md`.
+
+## [2026-04-21] refresh index | rebuild intro and entry points
+- Scope: Rebuilt index intro and entry-point guidance to match updated index quality instructions.
+- Files changed: `wiki/index.md`, `wiki/log.md`
+- Summary: Updated opening section to use a single-sentence DRIFT description followed by a concise 2–4 sentence purpose explanation in decision-maker language. Rewrote start-here entry points around observable situations (recurring issues, commit/pause uncertainty, fragmented execution) and aligned links to core navigation pages.
+- Follow-ups: Keep entry-point wording synced with future changes to top-level concept framing.
+
+## [2026-04-21] maintain | integrate ingest coverage gate with linked idea group detection
+- Scope: Strengthened wiki operating instructions to prevent missed grouped concepts during ingest.
+- Files changed: `.github/copilot-instructions.md`, `wiki/log.md`
+- Summary: Added a mandatory Source Concept Inventory step, explicit linked idea group detection for groups of 2, 3, 4, 5, and 6, and a completion gate requiring mapped or intentionally excluded groups. Expanded lint rules to verify section-level source coverage and grouped-set representation in wiki pages. Extended source registry schema to include concept coverage status, unmapped concepts, and last gap scan date.
+- Follow-ups: Apply the new source registry fields during the next `ingest all pending` or `show source coverage` operation.
+
+## [2026-04-21] ingest | close grouped quality concept gaps from DRIFT_CHECK_THINKING
+- Scope: Added missing solution-quality grouped concepts and completed control-file integration under the new grouped-set ingest rules.
+- Files changed: `wiki/solution_quality.md`, `wiki/quality_mismatch_signals.md`, `wiki/drift_check.md`, `wiki/proceed.md`, `wiki/probe.md`, `wiki/misfit.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Created focused pages for the grouped quality set (Desirable, Feasible, Viable and Usable, Valuable, Sustainable), linked them into context/action pages, and updated vocabulary and source coverage metadata so the set is explicit, discoverable, and lintable.
+- Follow-ups: Run strict lint for grouped-set coverage across all ingested sources and add any remaining cross-link clusters where grouped concepts are still fragmented.
+
+## [2026-04-21] ingest | innovation spiral and structural limit grouped concepts
+- Scope: Ingested new background source and surfaced additional grouped concepts not fully represented in the wiki.
+- Files changed: `wiki/innovation_spiral.md` (new), `wiki/capability_ceiling.md` (new), `wiki/innovation.md`, `wiki/stop.md`, `wiki/optimise.md`, `wiki/external_validity.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Added a first-class innovation spiral page covering grouped quality loops (F/V/D and U/V/S), stage-dependent NO/STOP value, and commitment boundary logic. Added capability ceiling as a structural-limit concept for diminishing-return optimisation patterns. Integrated both concepts across core pages and updated source registry mappings, including the new `background/innovation-spiral.md` source.
+- Follow-ups: Run full grouped-set lint across all sources and assess whether any additional pair/triad clusters still need dedicated pages.
+
+## [2026-04-21] gap check | DRIFT_CHECK_THINKING coverage scan
+- Scope: Compared `DRIFT_CHECK_THINKING.md` against current wiki pages for concept, explanation depth, grouped-set coverage, and navigation links.
+- Files changed: `wiki/sources.md`, `wiki/log.md`
+- Summary: Core DRIFT decision concepts remain covered, but operator-facing concepts are partial or missing as first-class wiki knowledge: interaction boundary, graduated visibility, parallelism, investment-vs-fit, and speed-dominant exceptions. Opportunity register created with named gaps, evidence, and question prompts.
+- Follow-ups: If approved, create focused pages and cross-link cluster for the five missing concepts, then refresh index and vocabulary.
+
+## [2026-04-21] ingest | speed-dominant exception handling
+- Scope: Ingested new background source for speed-dominant contexts and integrated exception-handling links across core decision pages.
+- Files changed: `wiki/speed_dominant_contexts.md` (new), `wiki/drift_check.md`, `wiki/judgement.md`, `wiki/decision_thresholds.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Added a first-class page for speed-dominant contexts (delay-harms-success conditions), including structural signals, relaxed-vs-mandatory checks, misuse failure modes, and guardrails. Linked the concept into DRIFT Check, Judgement, and Decision Thresholds to prevent over-cautious misapplication.
+- Follow-ups: Continue gap closure for remaining DRIFT_CHECK_THINKING concepts (`interaction boundary`, `graduated visibility`, `parallelism`, `investment-vs-fit`).
+
+## [2026-04-21] ingest | parallelism and investment-fit controls
+- Scope: Ingested two background sources and integrated operator control concepts for change load and effort escalation.
+- Files changed: `wiki/parallelism.md` (new), `wiki/investment_vs_fit.md` (new), `wiki/scaling.md`, `wiki/programme.md`, `wiki/drift_check.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Added first-class pages for `parallelism` (change-load vs state interaction) and `investment_vs_fit` (value-plus-fit gating before increasing effort). Linked both concepts into scaling, programme, and DRIFT Check so activity-vs-outcome and load-vs-absorption risks are explicit in navigation.
+- Follow-ups: Continue gap closure for remaining DRIFT_CHECK_THINKING concepts (`interaction boundary`, `graduated visibility`).

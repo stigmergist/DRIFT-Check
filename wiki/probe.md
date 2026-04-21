@@ -28,4 +28,6 @@ Probe is especially important for innovation work and any discontinuous change w
 
 Probe is also where [decision thresholds](decision_thresholds.md) are calibrated in practice: when confidence is low, scope should stay bounded until signal quality improves.
 
-See also: [context.md](context.md), [uncertainty.md](uncertainty.md), [innovation.md](innovation.md), [signals_and_noise.md](signals_and_noise.md), [judgement.md](judgement.md), [decision_thresholds.md](decision_thresholds.md)
+In Probe conditions, quality testing is intentionally light: test Desirable and Feasible first, and avoid full solution scoring until evidence quality improves.
+
+See also: [context.md](context.md), [solution_quality.md](solution_quality.md), [quality_mismatch_signals.md](quality_mismatch_signals.md), [uncertainty.md](uncertainty.md), [innovation.md](innovation.md), [signals_and_noise.md](signals_and_noise.md), [judgement.md](judgement.md), [decision_thresholds.md](decision_thresholds.md)

@@ -8,4 +8,6 @@ When applied too early, optimisation amplifies **[instability](state.md)**. It c
 
 The right question before optimisation is simple: are outcomes dependable enough that improvement efforts are acting on signal rather than noise?
 
-See also: [stabilise.md](stabilise.md), [rationalise.md](rationalise.md), [capability.md](capability.md), [scaling.md](scaling.md), [misfit.md](misfit.md), [fragility.md](fragility.md), [state.md](state.md), [observation.md](observation.md)
+Also test for [capability_ceiling](capability_ceiling.md). If performance tuning gives diminishing system-level returns, further optimisation may be the wrong move.
+
+See also: [stabilise.md](stabilise.md), [rationalise.md](rationalise.md), [capability.md](capability.md), [scaling.md](scaling.md), [misfit.md](misfit.md), [fragility.md](fragility.md), [state.md](state.md), [observation.md](observation.md), [capability_ceiling.md](capability_ceiling.md)
