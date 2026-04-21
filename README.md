@@ -127,6 +127,55 @@ Things change, and new observations appear once you start seeing the situation d
   - Layer 2 action-fit checklist: [docs/l2_sro_checklist_v2.md](docs/l2_sro_checklist_v2.md)
   - One-page alignment matrix: [docs/l2_sro_alignment_matrix_v2.md](docs/l2_sro_alignment_matrix_v2.md)
 
+## Wiki and generation process
+
+This repository includes aan auto-maintained knowledge wiki in [wiki/](wiki/) to make DRIFT concepts easier to navigate, cross-reference, and evolve over time.
+
+It is derived by AI from the conent of the primary files.
+
+Inspired by Andrej Karpathy's [LLM-wiki idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+
+### How AI is used
+
+The wiki ingest and maintenance workflow is run with GitHub Copilot in VS Code. Copilot is used to:
+
+- read raw source files
+- extract atomic concepts and grouped idea sets
+- create or update wiki concept pages
+- add meaningful cross-links across related concepts
+- update control files for traceability and coverage
+- run consistency checks, including link integrity and source coverage
+
+Copilot assists the process, but raw source files remain authoritative.
+
+### Source-of-truth boundary
+
+The wiki is generated from immutable raw sources:
+
+- [README.md](README.md)
+- [DRIFT_PRINCIPLES.md](DRIFT_PRINCIPLES.md)
+- [DRIFT_CHECK_THINKING.md](DRIFT_CHECK_THINKING.md)
+- [METHOD_COMPARISON.md](METHOD_COMPARISON.md)
+- all files under [docs/](docs/)
+- all files under [background/](background/)
+
+Raw source files are the source of truth and should not be rewritten during wiki maintenance.
+
+### How the wiki is generated
+
+1. New or updated source files are ingested into atomic concept pages under [wiki/](wiki/).
+2. Related concepts are cross-linked to form a navigable knowledge graph.
+3. Control files are updated:
+   - [wiki/index.md](wiki/index.md): catalog and entry points
+   - [wiki/sources.md](wiki/sources.md): source coverage and ingest status
+   - [wiki/log.md](wiki/log.md): append-only operation timeline
+   - [wiki/_concepts_vocabulary.md](wiki/_concepts_vocabulary.md): canonical concept vocabulary
+4. Link and coverage checks are run to keep the wiki internally consistent.
+
+### What the wiki is for
+
+The wiki is a maintained interpretation layer for explanation depth and discoverability. It does not replace the raw source documents, nor the primary use of the prompt.
+
 ## License
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
