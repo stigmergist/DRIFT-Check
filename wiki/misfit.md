@@ -31,4 +31,4 @@ Some misfit is quality-structure mismatch rather than action-state mismatch. For
 
 The useful move is not to search for a perfect intervention. It is to restore fit between state and action. That usually means slowing down enough to **[observe](observation.md)** clearly, then selecting the action type that matches what the system currently needs.
 
-See also: [state.md](state.md), [observation.md](observation.md), [solution_quality.md](solution_quality.md), [quality_mismatch_signals.md](quality_mismatch_signals.md), [capability.md](capability.md), [stabilise.md](stabilise.md), [rationalise.md](rationalise.md), [optimise.md](optimise.md), [context.md](context.md), [alignment.md](alignment.md), [fragility.md](fragility.md), [value.md](value.md)
+See also: [state.md](state.md), [observation.md](observation.md), [capability.md](capability.md), [stabilise.md](stabilise.md), [rationalise.md](rationalise.md), [optimise.md](optimise.md), [alignment.md](alignment.md), [fragility.md](fragility.md)

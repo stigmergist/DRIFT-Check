@@ -14,4 +14,4 @@ It also helps to keep planning language clear. A roadmap is a coordination artif
 
 Programmes always operate within constraints of [agency.md](agency.md) — not everything can be changed. Identifying where change is possible and where constraints must be navigated is part of good programme thinking.
 
-See also: [value.md](value.md), [investment_vs_fit.md](investment_vs_fit.md), [parallelism.md](parallelism.md), [value_drift.md](value_drift.md), [progress.md](progress.md), [context.md](context.md), [capability_stack.md](capability_stack.md), [external_validity.md](external_validity.md), [agency.md](agency.md)
+See also: [value.md](value.md), [investment_vs_fit.md](investment_vs_fit.md), [parallelism.md](parallelism.md), [value_drift.md](value_drift.md), [progress.md](progress.md), [context.md](context.md), [external_validity.md](external_validity.md), [agency.md](agency.md)

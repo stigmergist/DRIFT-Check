@@ -2,11 +2,17 @@
 
 Absorption capacity is a system's ability to survive being wrong repeatedly.
 
-This concept changes how risk is interpreted. Two systems can face the same uncertainty, but the one with higher absorption capacity can learn through error without collapsing. The other may need much tighter judgement before acting because the cost of being wrong is harder to absorb.
+This concept changes how you read risk.
+Two systems can face the same uncertainty and get different outcomes.
+A system with high absorption can learn through error without collapsing.
+A system with low absorption needs tighter judgement before action.
 
-Absorption capacity comes from buffers, optionality, slack, recovery pathways, and governance that allows correction. It is reduced by tight coupling, low redundancy, high debt, and decisions that are hard to reverse.
+Absorption capacity comes from buffers, slack, options, recovery paths, and governance that allows correction.
+It drops when systems are tightly coupled, redundancy is low, debt is high, or decisions are hard to reverse.
 
-In DRIFT, absorption capacity helps decide how much precision is required before action. High capacity permits faster iterative movement. Low capacity requires slower, more deliberate fit checks.
+In DRIFT, absorption capacity sets how much precision you need before action.
+High capacity allows faster iteration.
+Low capacity needs slower and tighter fit checks.
 
 The same error has different outcomes by absorption capacity:
 
@@ -24,8 +30,12 @@ flowchart TD
 
 In plain terms: if your system cannot absorb mistakes, lower risk and raise evidence before acting.
 
-Low absorption capacity is observable when small errors create outsized disruption, recovery consumes disproportionate effort, or local faults cascade across dependencies. High absorption capacity is observable when errors are contained, rollback paths are known, and corrective action does not destabilise the wider system.
+Low absorption shows up when small errors create large disruption, recovery takes too much effort, or local faults cascade across dependencies.
+High absorption shows up when errors are contained, rollback paths are known, and corrective action does not destabilise the wider system.
 
-Absorption capacity should always be read with [reversibility](reversibility.md). A system with low absorption and low reversibility needs far higher confidence before commitment than a system with high absorption and easy rollback. This is the practical basis for setting [decision_thresholds](decision_thresholds.md).
+Read absorption capacity with [reversibility](reversibility.md).
+A system with low absorption and low reversibility needs far higher confidence before commitment.
+A system with high absorption and easy rollback can move sooner.
+This is the practical basis for [decision_thresholds](decision_thresholds.md).
 
 See also: [reversibility.md](reversibility.md), [decision_thresholds.md](decision_thresholds.md), [judgement.md](judgement.md), [fragility.md](fragility.md), [probe.md](probe.md), [scaling.md](scaling.md), [context.md](context.md)

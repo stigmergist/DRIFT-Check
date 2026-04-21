@@ -19,6 +19,8 @@ This is the canonical list of key DRIFT concepts that should be cross-linked and
 - `judgement` — choosing what matters and what to ignore
 - `decision_thresholds` — confidence level required before committing to action, set by reversibility, absorption, and consequence
 - `speed_dominant_contexts` — exception handling for contexts where delay reduces success probability
+- `interaction_boundary` — guardrail that prevents analysis from continuing after non-substantive user responses
+- `graduated_visibility` — adaptive explicitness of DRIFT language based on user clarity
 
 ## Capability State and Action
 
@@ -40,6 +42,10 @@ This is the canonical list of key DRIFT concepts that should be cross-linked and
 - `scaling` — amplification of existing behaviour, good or bad
 - `local_optimisation` — local gains that harm the wider system
 - `parallelism` — safe change load relative to system state and absorption
+- `risk_types` — distinction between stable controllable risk and shifting emergent risk
+- `control_learning` — operating posture choice between reducing variation and exposing variation
+- `risk_governance` — adaptation of ERM, audit, and oversight for uncertain risk domains
+- `erm` — enterprise risk management as a governance container for risk visibility, ownership, and prioritisation
 
 ## Foundational Relationships
 
@@ -69,5 +75,5 @@ When writing or editing wiki pages:
 ## Metadata
 
 - Last updated: 2026-04-21
-- Total concepts: 43
+- Total concepts: 49
 - Related: `wiki/index.md` (categorical index), `.github/copilot-instructions.md` (ingest schema)

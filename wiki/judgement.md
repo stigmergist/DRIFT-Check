@@ -10,4 +10,6 @@ The required precision of judgement depends on reversibility and absorption capa
 
 In [speed-dominant contexts](speed_dominant_contexts.md), judgement also tests opportunity decay. The key question becomes whether waiting improves decision quality more than it reduces the chance of success.
 
-See also: [observation.md](observation.md), [signals_and_noise.md](signals_and_noise.md), [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [misfit.md](misfit.md)
+Judgement quality in risk governance also depends on posture fit. If risk is stable, control-first judgement is appropriate. If risk is shifting, learning-first judgement is safer. This distinction is explained in [risk_types](risk_types.md), [control_learning](control_learning.md), and [risk_governance](risk_governance.md).
+
+See also: [observation.md](observation.md), [signals_and_noise.md](signals_and_noise.md), [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [decision_thresholds.md](decision_thresholds.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [misfit.md](misfit.md), [risk_types.md](risk_types.md)

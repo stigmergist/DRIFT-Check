@@ -24,4 +24,8 @@ DRIFT also includes a bounded exception for [speed-dominant contexts](speed_domi
 
 Two additional operator checks improve application quality: [parallelism](parallelism.md), which controls change load against state, and [investment_vs_fit](investment_vs_fit.md), which prevents effort escalation before value and fit are evidenced.
 
-See also: [context.md](context.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [parallelism.md](parallelism.md), [investment_vs_fit.md](investment_vs_fit.md), [capability.md](capability.md), [observation.md](observation.md), [misfit.md](misfit.md), [judgement.md](judgement.md), [state.md](state.md), [signals_and_noise.md](signals_and_noise.md), [external_validity.md](external_validity.md), [solution_quality.md](solution_quality.md), [quality_mismatch_signals.md](quality_mismatch_signals.md), [method_mapping.md](method_mapping.md), [docs_companion.md](docs_companion.md)
+Application quality also depends on [interaction_boundary](interaction_boundary.md), which prevents the assistant from substituting user judgement, and [graduated_visibility](graduated_visibility.md), which adjusts how much model language appears based on user clarity.
+
+For risk posture in mixed or shifting domains, use [risk_types](risk_types.md), [control_learning](control_learning.md), and [risk_governance](risk_governance.md).
+
+See also: [context.md](context.md), [capability.md](capability.md), [misfit.md](misfit.md), [judgement.md](judgement.md), [solution_quality.md](solution_quality.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [risk_governance.md](risk_governance.md), [method_mapping.md](method_mapping.md)

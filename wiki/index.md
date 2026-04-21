@@ -25,6 +25,8 @@ Or browse the concept vocabulary at [_concepts_vocabulary.md](_concepts_vocabula
 - [quality_mismatch_signals.md](quality_mismatch_signals.md): Fast observable signals for want/can/worth mismatches before failure becomes explicit.
 - [observation.md](observation.md): Why you must trust observable behaviour, and why that's harder than it sounds.
 - [judgement.md](judgement.md): Deciding what matters and what's noise. Not neutral; shapes what you'll see.
+- [interaction_boundary.md](interaction_boundary.md): Prevents analysis from moving without substantive user judgement when a key question is asked.
+- [graduated_visibility.md](graduated_visibility.md): Adjusts how much DRIFT structure appears based on user clarity so responses stay useful, not formulaic.
 
 ## When You're Deciding What to Do: Action Patterns
 
@@ -58,6 +60,10 @@ These concepts explain why systems behave as they do, and why interventions ofte
 - [agency.md](agency.md): What can actually be changed, and what is determined by your constraints?
 - [scaling.md](scaling.md): What happens when you amplify an intervention? Does the gain hold, or does it break?
 - [parallelism.md](parallelism.md): How much change can run at once before interactions overwhelm learning and control.
+- [risk_types.md](risk_types.md): Separates stable risks from shifting risks so teams do not over-apply control where learning is needed.
+- [control_learning.md](control_learning.md): Chooses between control posture and learning posture based on whether consistency or discovery improves outcomes.
+- [risk_governance.md](risk_governance.md): Shows how ERM, audit, and committee oversight must adapt when uncertainty is still unfolding.
+- [erm.md](erm.md): Defines Enterprise Risk Management as a governance container and shows where it helps or can create false precision.
 - [innovation.md](innovation.md): Building something new while navigating uncertainty. Different constraints than optimization.
 - [local_optimisation.md](local_optimisation.md): Winning locally while losing the war. Happens when you're not watching the wider system.
 - [capability_ceiling.md](capability_ceiling.md): The point where more optimisation no longer changes meaningful outcomes.

@@ -292,6 +292,22 @@ Signals you may notice:
 
 → Leads to premature convergence on weak solutions
 
+### Guardrail (learning phase)
+
+Early reduction of variation can limit understanding.
+
+Prefer:
+
+- containing impact (limit)  
+- observing real behaviour  
+- allowing differences to surface  
+
+before introducing controls
+
+Sequence:
+
+> Contain → Observe → Learn → Then stabilise
+
 ---
 
 ### Questionable value (Stop)
@@ -458,6 +474,59 @@ Misreading this leads to:
 - simplifying before understanding (problem persists or worsens)
 - analysing when the issue is actually inconsistency (slow progress)
 
+### Additional check (control vs learning)
+
+If unsure whether to simplify or investigate:
+
+- If variation is **noise to remove** → control  
+- If variation is **signal to understand** → learning  
+
+Misreading this leads to:
+
+- treating signal as noise → premature standardisation  
+- treating noise as signal → unnecessary analysis
+
+### Control vs Learning tension (use lightly)
+
+Some situations differ in a simple but important way:
+
+- In some cases, improvement comes from making things more consistent  
+- In others, improvement comes from understanding why things differ  
+
+You can think of this as:
+
+- **Control mode** → reduce variation, increase reliability  
+- **Learning mode** → expose variation, understand behaviour  
+
+---
+
+### Practical test
+
+> “Does this improve by making things more consistent —  
+> or by seeing where it behaves differently?”
+
+- Consistency → stabilising / optimising behaviour fits  
+- Difference → probing behaviour fits  
+
+---
+
+### Misfit pattern
+
+Applying control too early:
+
+- standardising before understanding  
+- reducing variation before cause is clear  
+- measuring stability instead of change  
+
+→ tends to hide the real problem rather than resolve it  
+
+Applying learning too late:
+
+- continuing to explore when behaviour is already consistent  
+- delaying control where reliability is required  
+
+→ leads to avoidable instability
+
 ---
 
 ## Alignment Logic (fit between state and action)
@@ -543,6 +612,12 @@ You will often see the action before you see the state.
 
 - System performance improves (pricing, features, efficiency) but customer behaviour does not move  
   → likely optimising against outdated or shifted value
+
+- Pushing controls, standards, or KPIs while outcomes are still inconsistent  
+  → likely applying control in a learning situation  
+
+- Continuing analysis or experimentation when outcomes are already predictable  
+  → likely applying learning in a control situation  
 
 Additional behavioural misfit signals:
 

@@ -46,4 +46,4 @@ Mixed states are also common and should be handled explicitly:
 
 In plain terms: if one label does not fit cleanly, use pair states to avoid forcing a false single-state decision.
 
-See also: [proceed.md](proceed.md), [align_context.md](align_context.md), [probe.md](probe.md), [stop.md](stop.md), [capability.md](capability.md), [state.md](state.md), [alignment.md](alignment.md), [signals_and_noise.md](signals_and_noise.md), [drift_check.md](drift_check.md), [agency.md](agency.md), [decision_thresholds.md](decision_thresholds.md)
+See also: [proceed.md](proceed.md), [align_context.md](align_context.md), [probe.md](probe.md), [stop.md](stop.md), [state.md](state.md), [alignment.md](alignment.md), [agency.md](agency.md), [decision_thresholds.md](decision_thresholds.md)

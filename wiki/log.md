@@ -167,3 +167,59 @@ Append-only chronological record of ingest, query, lint, and maintenance operati
 - Files changed: `wiki/parallelism.md` (new), `wiki/investment_vs_fit.md` (new), `wiki/scaling.md`, `wiki/programme.md`, `wiki/drift_check.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
 - Summary: Added first-class pages for `parallelism` (change-load vs state interaction) and `investment_vs_fit` (value-plus-fit gating before increasing effort). Linked both concepts into scaling, programme, and DRIFT Check so activity-vs-outcome and load-vs-absorption risks are explicit in navigation.
 - Follow-ups: Continue gap closure for remaining DRIFT_CHECK_THINKING concepts (`interaction boundary`, `graduated visibility`).
+
+## [2026-04-21] ingest | interaction boundary, graduated visibility, and risk governance modes
+- Scope: Ingested modified `DRIFT_CHECK_THINKING.md` and new `background/risk-types-and-audit.md` into dedicated concept pages and graph links.
+- Files changed: `wiki/interaction_boundary.md` (new), `wiki/graduated_visibility.md` (new), `wiki/risk_types.md` (new), `wiki/control_learning.md` (new), `wiki/risk_governance.md` (new), `wiki/drift_check.md`, `wiki/judgement.md`, `wiki/signals_and_noise.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Closed previously unmapped DRIFT_CHECK operator concepts by adding first-class pages for interaction boundary and graduated visibility. Ingested risk source into three atomic pages covering risk type distinction, control-vs-learning posture, and governance/audit adaptation. Updated index, vocabulary, and source registry to complete traceability.
+- Follow-ups: Run `lint wiki` to verify backlink density and check for long-sentence regressions in newly added pages.
+
+Source Concept Inventory (this ingest):
+- `DRIFT_CHECK_THINKING.md` -> Interaction Boundary -> `interaction_boundary.md` (create): makes user judgement non-delegable when questions are asked.
+- `DRIFT_CHECK_THINKING.md` -> Graduated Visibility -> `graduated_visibility.md` (create): calibrates model explicitness to user clarity.
+- `DRIFT_CHECK_THINKING.md` -> Control vs Learning checks -> `control_learning.md` (update/create mapping): avoids standardising before understanding.
+- `background/risk-types-and-audit.md` -> Type 1 vs Type 2 distinction -> `risk_types.md` (create): foundational risk-behaviour split.
+- `background/risk-types-and-audit.md` -> Posture and treatment intent -> `control_learning.md` (create): same tools, different intent by risk type.
+- `background/risk-types-and-audit.md` -> ERM, audit, committee, KRI adaptation -> `risk_governance.md` (create): governance mode must match uncertainty.
+
+Linked Idea Group Mapping (this ingest):
+- Size 2 pair: Type 1 vs Type 2 -> `risk_types.md`.
+- Size 2 pair: Control vs Learning posture -> `control_learning.md`.
+- Size 3 triad: Low/Medium/High clarity visibility levels -> `graduated_visibility.md`.
+- Size 4 set: Reduce/Limit/Observe/Accept treatments -> `control_learning.md`.
+- Size 5 set: Data/Cyber/AI/Operations/Third-party mixed domains -> `risk_types.md`.
+- Size 6 set: Cause-Effect/Behaviour/Objective/Success/Failure/Progress comparison -> `risk_types.md`.
+
+## [2026-04-21] lint | structural and readability pass after risk-ingest update
+- Scope: Audited all wiki content pages for broken links, orphan pages, see-also link density, terminology contradictions, and readability density.
+- Files changed: `wiki/log.md`
+- Summary: Structural graph checks passed (`BROKEN_LINKS=0`, `ORPHANS=0`, `WEAK_SEE_ALSO=0`) across 48 content pages with 481 wiki-local concept links. Terminology check passed: no DRIFT-as-framework regressions in content pages. Source-coverage consistency held for `DRIFT_CHECK_THINKING.md` and `background/risk-types-and-audit.md` with grouped-set mappings present in `wiki/sources.md` and ingest log. Readability heuristic still flags dense prose in several legacy pages; newly ingested risk pages are within expected plain-language range.
+- Follow-ups: Run a targeted readability rewrite pass on the highest-density legacy pages (`capability_stack.md`, `capability.md`, `absorption_capacity.md`, `drift_check.md`) using the >24-word-line heuristic as triage.
+
+## [2026-04-21] lint | cross-link term scan on new risk documents
+- Scope: Scanned newly added risk pages for missing inline term links (requested: Type 1 / Type 2 risk terms and related signal language).
+- Files changed: `wiki/risk_governance.md`, `wiki/risk_types.md`, `wiki/control_learning.md`, `wiki/log.md`
+- Summary: Added missing inline cross-links for `Type 1` and `Type 2` references, connected `Known signals` and `Discovery signals` to `signals_and_noise.md`, and linked control/learning posture language to `risk_types.md` plus action anchors (`stabilise`, `probe`).
+- Follow-ups: Consider dedicated pages for `systemic risk`, `KRI split`, and `Type 1 vs Type 2 audit modes` if these terms need to become reusable entry points beyond current risk pages.
+
+## [2026-04-21] ingest | add ERM concept page and links
+- Scope: Added a first-class ERM term page and integrated it into risk-governance navigation.
+- Files changed: `wiki/erm.md` (new), `wiki/risk_governance.md`, `wiki/index.md`, `wiki/_concepts_vocabulary.md`, `wiki/sources.md`, `wiki/log.md`
+- Summary: Created `erm.md` to define Enterprise Risk Management in DRIFT language, including where ERM is strong and where it can create false precision in shifting risk. Added links from `risk_governance.md`, indexed the page, registered the concept in vocabulary, and updated source coverage mapping.
+- Follow-ups: Optionally create dedicated pages for `systemic risk` and `KRI split` to complete the risk-governance concept cluster.
+
+## [2026-04-21] lint | full wiki structural and readability check
+- Scope: Ran a full lint scan across wiki content pages after ERM integration.
+- Files changed: `wiki/log.md`
+- Summary: Structural checks passed across 49 content pages and 502 wiki-local links (`BROKEN=0`, `ORPHANS=0`, `WEAK_SEE_ALSO=0`). Terminology regression check passed (`decision framework` references absent from content pages). Density checks show 9 pages with high `See also` counts (>8 links), and readability heuristic flagged 158 long prose lines (>24 words) concentrated in older legacy pages.
+- Follow-ups: Consider a targeted readability pass for highest-density pages (`capability.md`, `capability_stack.md`, `absorption_capacity.md`, `drift_check.md`) and optional see-also pruning where navigation feels noisy.
+
+## [2026-04-21] maintain | see-also pruning and top-20 readability rewrites
+- Scope: Applied the two requested improvements: (1) reduce over-dense `See also` sections and (2) rewrite top 20 longest flagged prose lines.
+- Files changed: `wiki/absorption_capacity.md`, `wiki/agency.md`, `wiki/align_context.md`, `wiki/alignment.md`, `wiki/capability.md`, `wiki/context.md`, `wiki/decision_thresholds.md`, `wiki/drift_check.md`, `wiki/judgement.md`, `wiki/misfit.md`, `wiki/optimise.md`, `wiki/proceed.md`, `wiki/programme.md`, `wiki/log.md`
+- Summary: Pruned all pages above the 8-link threshold to within target range. Rewrote the top 20 flagged long prose lines (from `absorption_capacity`, `agency`, `align_context`, `alignment`, `capability`) into shorter plain-language sentences while preserving meaning and links.
+- Follow-ups: Re-run full readability pass later for remaining long-line clusters, especially `capability_stack.md` and adjacent foundational pages.
+
+Metrics delta:
+- `HIGH_SEE_ALSO`: 9 -> 0
+- `LONG_PROSE_LINES`: 158 -> 138

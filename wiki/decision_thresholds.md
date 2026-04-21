@@ -34,4 +34,4 @@ Decision thresholds do not replace judgement. They sharpen it by making trade-of
 
 In [speed-dominant contexts](speed_dominant_contexts.md), thresholds can be intentionally lowered for reversible moves when delay destroys advantage. Even then, value checks, irreversibility awareness, and basic viability remain mandatory.
 
-See also: [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [context.md](context.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [probe.md](probe.md), [proceed.md](proceed.md), [stop.md](stop.md), [judgement.md](judgement.md), [scaling.md](scaling.md)
+See also: [reversibility.md](reversibility.md), [absorption_capacity.md](absorption_capacity.md), [context.md](context.md), [speed_dominant_contexts.md](speed_dominant_contexts.md), [probe.md](probe.md), [proceed.md](proceed.md), [stop.md](stop.md), [judgement.md](judgement.md)
